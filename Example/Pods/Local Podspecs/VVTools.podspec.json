@@ -1,0 +1,26 @@
+{
+  "name": "VVTools",
+  "version": "0.0.1",
+  "summary": "一个应用调试工具箱",
+  "homepage": "https://github.com/chinaxxren/VVTools",
+  "license": "MIT",
+  "authors": {
+    "": "jiangmingz@qq.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source": {
+    "git": "https://github.com/chinaxxren/VVTools",
+    "tag": "0.0.1"
+  },
+  "frameworks": "UIKit",
+  "source_files": [
+    "Sources",
+    "VVTools/**/*"
+  ],
+  "resources": "VVTools/Resources/Resource.bundle",
+  "requires_arc": true,
+  "swift_version": "5.0"
+}
