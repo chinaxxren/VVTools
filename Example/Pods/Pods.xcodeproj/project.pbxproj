@@ -7,101 +7,114 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00068B38EEF1A117F055440D26B1C52B /* ASL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B837F09662E1EE50AFAD6633D8C7BC /* ASL.swift */; };
-		01E813A495FDAE8EBCFB865B13ECDC08 /* FileBrowserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD07BFBC5E6E358F345C51DBA39930E4 /* FileBrowserController.swift */; };
-		0339549BAC670AC623B14EDDFAB20BDB /* NetworkFlowDetailCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16EC02519E174E2949BD0B69490B9C1 /* NetworkFlowDetailCellModel.swift */; };
-		036DAD15F6BD00AECF9FE410B4EB7553 /* Captain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7822C96E0D3F09A5B205B790A0F67 /* Captain.swift */; };
-		04C4F2889AC8FC61E26CCFEC1E543E9C /* SoldierListSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903AE456992A92D056DB745E447CFB66 /* SoldierListSectionModel.swift */; };
-		063366B05694C23EF44C6B76434DCF56 /* ANRDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA9F93AE2A23EAC44644BB1A6351CCD /* ANRDashboardViewController.swift */; };
-		068BD05A8453BEC08494196EE012F41F /* VVTools_icon_sanbox.png in Sources */ = {isa = PBXBuildFile; fileRef = 611D6F7BCFF4F68184E0EEE166E82B71 /* VVTools_icon_sanbox.png */; };
-		080981463CF471D7529CDAF176DFBE29 /* ASLFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963FB64E06A57C31D68C4896F7D4DF4E /* ASLFileManager.swift */; };
-		08D5CC8A3B7ECE7984B7EAAF53395894 /* VVTools_icon_memory.png in Sources */ = {isa = PBXBuildFile; fileRef = 6DD0B18CE643DC7881EF4430972F4268 /* VVTools_icon_memory.png */; };
-		093225338D9DC50A72DF36D8551B28BF /* ANRPingThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A3A142F52F9BFEA466B1B87C2D5091 /* ANRPingThread.swift */; };
-		0E7BCA5C1A405C1DAD58D5635406BF81 /* DashboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCF5852B49E6E480DDCE27D7EB7254 /* DashboardCell.swift */; };
-		0F76D23929BFF942BD8683AE3B1C434D /* SanboxBrowserSoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12308D08F4B724F6D6B14FE418292EF7 /* SanboxBrowserSoldier.swift */; };
-		135ABEA6874BFF84A554007548DB00CE /* WebsiteEntrySoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF5E56D43D26589F20F7410853D320 /* WebsiteEntrySoldier.swift */; };
-		16516DA7AC82D094675EC0FFF513BCF7 /* TableListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D1E171A040277FBC6FECF5413879E /* TableListViewController.swift */; };
-		1CCCDEDFC25F0D9594304A831FAC3C3F /* VVTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C74D1152B5FF292E3B41108ED48812B3 /* VVTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EE1FD3073EC0F0E89C75D38BC70D824 /* VVTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 548C8895E3A95200ECFD943FEE0B0104 /* VVTools-dummy.m */; };
-		2551239B94192C0D720343CEB3DBC212 /* ANRListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF75940F1F37352CDD7DB46E84BF645F /* ANRListViewController.swift */; };
-		29BF3482577E285C9EDBB45411D39C0A /* SoldierFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FA555728D2A98BC6168D539B1BAD6D /* SoldierFileManager.swift */; };
-		29C9586069175DB9787F50590E817BA6 /* NetworkFlowDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4504191A79B89BFBCD99D38DA52C7EA1 /* NetworkFlowDetailViewController.swift */; };
-		2AD41B85AB7B2E1D2B8F5C60F22555B8 /* TableContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC26E86D380DA0917B4C512465A251A /* TableContentViewController.swift */; };
-		32570BEE82C636ABBA3BC9321050527C /* ExcelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63AC8BF01086A4E90B1E39E2C2C62B8 /* ExcelView.swift */; };
+		01698FC383BD579134AADD35127D2FD1 /* TextPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A39474EAA8904D3AD62091EE18667AF /* TextPreviewViewController.swift */; };
+		01A94C62A2A640AFCE525EDB7CEF8674 /* ExcelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCE6505F4779C8F277277C66E97D408 /* ExcelView.swift */; };
+		032ADE1C8EFBA535EE1D333A30F9A452 /* CrashSignalExceptionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E71FE6272771DADEBB8F878C3B515 /* CrashSignalExceptionHandler.swift */; };
+		0888349947F72B38856F8CF4192F2C20 /* String+Leak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5446801ACE750AD1631D0CB8451CEAEA /* String+Leak.swift */; };
+		0A26A637B55BBB52B0531D3F34BB227D /* LeakListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF37DD2A67236269643DD26DE47375C /* LeakListViewController.swift */; };
+		0A56F3160EAAA5D63D9FB3155A373018 /* MemoryMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7880A67F81A6A4C4FD5164ED41BB715C /* MemoryMonitor.swift */; };
+		0C70B29C4A90D3813D95D13A294B4380 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3214C9382ABF3929F1C454E419B7904 /* ImageManager.swift */; };
+		0E5B1FA6B926864EF292354BD763B966 /* VVTools_icon_memory.png in Sources */ = {isa = PBXBuildFile; fileRef = BE37E49289078C9D7E25C229E0A870EF /* VVTools_icon_memory.png */; };
+		11AAE069AC24B45001630307E326B1BD /* AppInfoSoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E837F122E8B59DEB990EC61BE9BAE1 /* AppInfoSoldier.swift */; };
+		12EAC410A7D39DBFB831471C19B6028E /* VVTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C547BA9C20E7FE20B2D4937754714A3C /* VVTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CE3227988BD71EBB691B1D855244AE9 /* LeakDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E02EA808FAE246737CB2BAD032E4A /* LeakDashboardViewController.swift */; };
+		2425715BB3BDA391370BE2207FBA7A2B /* CrashListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71152D2A673A75E1BAFA8FF9EF3CED /* CrashListViewController.swift */; };
+		26BC031D1255D38DDBE9F94F86053F8D /* MonitorListWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0336BFB86ECF5C96850FB2F8D6799234 /* MonitorListWindow.swift */; };
+		28C0A25FFAEE96EC752B3EE13057DA20 /* LeakFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EABBBF9A403D3149772DF7DACA4A46B /* LeakFileManager.swift */; };
+		2910FBD8712CABDFF732B47B25CDC7B0 /* CaptainFloatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418BE79965A7F93ABBAF667CEECA6F03 /* CaptainFloatingViewController.swift */; };
+		2B53BA84486C802850C183229D487C4B /* Captain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6E5A88330B6E5922B5AE88BA14E0B2 /* Captain.swift */; };
+		2CD83FEA00BE25357C15C620A53258F9 /* NetworkFlowResponseDataDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D67B584E319ECA67C56D00125C620B4 /* NetworkFlowResponseDataDetailViewController.swift */; };
+		312C2BAB01FC451AC792CAD5C830B605 /* FileListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91880689FD99E10150328A393E1EDDB3 /* FileListViewController.swift */; };
+		3257B445AF48895A912430A67425B66E /* FPSMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EC53B6D28525071F2EF9D4C08B9B4C /* FPSMonitor.swift */; };
+		3273215AACC7DDDA20F951C015F471AC /* NetworkFlowDetailCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC491DE836AB057D24CD5F18BF57BC62 /* NetworkFlowDetailCellModel.swift */; };
+		35649CE11522E1326F071A7E8AC19451 /* TableContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC04EF55F448A23E6CEC5727FAA09B /* TableContentViewController.swift */; };
 		35F111B08E779DCFFC85F66939A1FE9A /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39CA0170B72CADC1DBDB7F0B116967CB /* ANRSoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94443D33B168EF92B79EE8CBF2AB03F6 /* ANRSoldier.swift */; };
-		3C7BD72B998CC27EF080124F005880EE /* NetworkFlowResponseDataDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FA6F77BBCBF8461E634721F029181A /* NetworkFlowResponseDataDetailViewController.swift */; };
-		3E0F3CE0C545665C4B464A52EC5172C8 /* UserDefaultsKeyValueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF3B86CD97C5607F687BBC25A582AFC /* UserDefaultsKeyValueModel.swift */; };
-		3F6A7C7892B839DA99C4A22C918A5950 /* SanboxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520E801DB5FF9B3DB40DB0D9A6FA7D8 /* SanboxModel.swift */; };
-		41819F63742450D3654A518DC6FEF918 /* CrashSoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1572A4BE2F3B114AEC0059BADB8C21 /* CrashSoldier.swift */; };
+		36221F7CC0E87014DE81350F357C164F /* AppInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C18C259A4690D15D9D4D4ED86C93074 /* AppInfoViewController.swift */; };
+		38AB8511617D82315F62E30A61961D28 /* NSObject+Eye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C15AC1983F3C6D169D6BC0615D6F54 /* NSObject+Eye.swift */; };
+		38D61635AE5C3D54017C14229DFA42D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		3A001F33CAE09FBDE2513EBB05567686 /* ObjectAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A17469B7455A52D3E4BB65253FAA4 /* ObjectAgent.swift */; };
+		3A073556568E0AD27473E0105941DB75 /* UserDefaultsKeyValueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75487E51B35A299D97C1C3D18601CDF /* UserDefaultsKeyValueModel.swift */; };
+		3CF20024A4DC8511C3009E5FB02ED939 /* VVTools_icon_app_info.png in Sources */ = {isa = PBXBuildFile; fileRef = 0F2B0032D9B183F8B764706A77E172A6 /* VVTools_icon_app_info.png */; };
+		3D75EF64AFF7AABC467E9C592591D7B2 /* ANRFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49979B3FE8FE3EA6A9F1B7771809115F /* ANRFileManager.swift */; };
+		3FB13D511921BAC02A444D70193936CB /* FilePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84EFCB397F38BB821F14AEDFD68C6A /* FilePreviewViewController.swift */; };
+		40C15D6240B35728F50DF6B00448DB57 /* UserDefaultsKeyValueDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50651040AB5FEF12ADB2BDB94C48722 /* UserDefaultsKeyValueDetailViewController.swift */; };
+		40C2945ACE2691F0A6C1D6D9ADFCD36F /* FPSSoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D161699F2D4194B89B8882A201AE71BD /* FPSSoldier.swift */; };
 		43171E13E436DE4E317D87212DF3E526 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		435FA7F5EC1304185D7F14A5F6A9D82C /* CaptainDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3FF54EA118FB5FB90BEB91D045975A /* CaptainDefines.swift */; };
-		47AFF9A9CB700026EBB8F53B91B310D2 /* FPSDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8EC4C44BA8D64B65088E6959136E2A /* FPSDashboardViewController.swift */; };
-		486B7C19A811E6ABEBAB75F107B572B1 /* CrashDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08239CBD6F8EE26A69D31066B0FC25 /* CrashDashboardViewController.swift */; };
-		523C670B310BA7F65E8E9E50DE845DA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		56D47EE7F46AC218A8B793227F8C1B66 /* VVTools_icon_app_info.png in Sources */ = {isa = PBXBuildFile; fileRef = 806B0BCB846F1C025888708FE654F967 /* VVTools_icon_app_info.png */; };
-		5757DE8B1BCF1B36F7CE7B905196E644 /* FilePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8769466F78BC94D6D5B7815B7AD4DE92 /* FilePreviewViewController.swift */; };
-		58D5A8D1D444333AC1FF317B0B8BB23A /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE35A96F4F00BF64EF38C1EED3410E6 /* BaseTableViewController.swift */; };
-		58FE8B92D888257A039212F629AF7D2E /* UserDefaultsKeyValueDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015EED759D15E02A43292DBD76EA2FD3 /* UserDefaultsKeyValueDetailViewController.swift */; };
-		5ABC74F8B4FB32E6A09B3A899E4608F5 /* NetworkFlowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4FBDCD2DBD759F053762478E50D025 /* NetworkFlowModel.swift */; };
-		5BD4C1AFED6E74BBCAA5418B71082A39 /* UserDefaultsSoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E829AE9474581BA625C92C34AA1F8A5 /* UserDefaultsSoldier.swift */; };
-		5D1AAC56FFDA059BCC1C4A50D074F523 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		5F0FF3A2B7EE27FD6F9AA1B79FC61879 /* TextPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F272949547329F326A7029390F82BFA /* TextPreviewViewController.swift */; };
-		605DC65189474637AA0C0826A0B0DF2B /* FPSSoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534754977DCB75B0BB91A093E0E5322B /* FPSSoldier.swift */; };
-		60E21D0F24C1B36BA353244F94B83DE1 /* NetworkFlowListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D7F1554BC89288B9BF5F783F8E3817 /* NetworkFlowListViewController.swift */; };
-		636B9384DC27C73BCB2E6851D7D241C1 /* CrashUncaughtExceptionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0D6D7EA4D2DA7407543D76CC81BB7C /* CrashUncaughtExceptionHandler.swift */; };
-		63D2E88AC12E972AF1A046A6C75ACDFE /* CrashListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B408896088673C812A3D1601BBF8BD /* CrashListViewController.swift */; };
-		65DDE626963A389E490F3F2A1B4F6922 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62DDE776D5833B2061AAE372E0252E38 /* Resource.bundle */; };
-		70E74D0CF30BF3E6B55F267D3603D271 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC64584F19F7337998E4B7B2B9ACFE6 /* NetworkManager.swift */; };
-		78C678085BA4B9A7B726F58868310EF2 /* CrashFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259BCF2EEE42EB2FE8714F3752795BC5 /* CrashFileManager.swift */; };
-		7C914772E723FD1CB29C1E5EABD275EE /* MemoryMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9A9D704B9447066DBAD0F722C9327B /* MemoryMonitor.swift */; };
-		7D9EAD1730479F28B9B0EE378108AE8C /* CaptainFloatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE526DAE58379F4374E025340CA4232 /* CaptainFloatingViewController.swift */; };
-		807865BACFCF7161A70898A2A31F051F /* VVTools_icon_shield.png in Sources */ = {isa = PBXBuildFile; fileRef = 4FEDF23CB64173FC61E91CCC0FFAF612 /* VVTools_icon_shield.png */; };
-		8187BDC0F75BD94A7B7DF55E2EDE4A09 /* ASLListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5723B196C12C312E10FDA4231C7BD1C1 /* ASLListViewController.swift */; };
-		88210DD2685B22D63AACA6B88FE30AF8 /* ASLSoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B51A3A7A9E3738674635DBF2D13A37 /* ASLSoldier.swift */; };
-		88405CC2424182A8CAA9A04E59F920B8 /* WebDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BD3EDBF972A1156240299E8C97A000 /* WebDetailViewController.swift */; };
-		89A356FDCE6EC668573905BB4B078A07 /* DatabaseConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7179FC3E2DFA145CF61B8B8BD5950B /* DatabaseConnector.swift */; };
-		8E1099C33E7CE5084089A92687912A03 /* VVTools_icon_cpu.png in Sources */ = {isa = PBXBuildFile; fileRef = 700A684FAA087BD1C9D7016DBB47BC79 /* VVTools_icon_cpu.png */; };
-		948563BD15167BDF1A7BA028241431CF /* VVTools_icon_app_user_defaults.png in Sources */ = {isa = PBXBuildFile; fileRef = C5A123BB30F606A66893C13C192120D9 /* VVTools_icon_app_user_defaults.png */; };
-		95CA2E6C8F2D1894A9CC2C57854705EE /* VVTools_icon_crash.png in Sources */ = {isa = PBXBuildFile; fileRef = 53BA78AF1F91639E99CFAC4D0FBCC5F7 /* VVTools_icon_crash.png */; };
-		99E5FD783FE7F8DB3EE98985D571A72B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9902CF0B0BB583E104BA3D760D6F6327 /* BaseViewController.swift */; };
-		9D7306D2060AD0FB296016CCC49F9E13 /* VVTools_icon_network.png in Sources */ = {isa = PBXBuildFile; fileRef = D0108CE264F756032513C0049D7BE047 /* VVTools_icon_network.png */; };
-		9DE50A5DFA6B54B8ACEA924C3DA40E03 /* BSBacktraceLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 450A28986AE078A41705140863A60E35 /* BSBacktraceLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0785AFA330B5EDFE1E450EF64E1576E /* FileListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407B1E69C23BC8AB57D3BA3ED48114A7 /* FileListViewController.swift */; };
-		A07B6F037E86634572349771F644508A /* WebsiteEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093C5FB81C109F7DE0E9A649481A770 /* WebsiteEntryViewController.swift */; };
-		A09191E0309259AD51FF845E2F69B9AF /* UserDefaultsKeyValuesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF29215B0B47100A5EB27F506C5A21 /* UserDefaultsKeyValuesListViewController.swift */; };
-		A219F5F8BEE2AAC109B55D1EA144ADF8 /* AppInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0CB3F3749E8210729754F63A39BA7F /* AppInfoManager.swift */; };
-		A3E6A906A1998BBB025DEA511145A81F /* AppInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BE5527271D35DD32C981B9F0E9857A /* AppInfoViewController.swift */; };
-		A5811C08E154FDEBFA92E417134D17D0 /* FPSMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B236D6055AA6F44D245C4CD11D5D33 /* FPSMonitor.swift */; };
-		ACB2116036AD312DE3CB5DDB4E684141 /* NetworkFlowDetailSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BDF657630977672F9F38A82D9F9C85 /* NetworkFlowDetailSectionModel.swift */; };
-		B0909051E31BBB0A58C49D6F1BD446B4 /* UserDefaults+Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA17CB5288A65A5EC82881B3F04FD050 /* UserDefaults+Access.swift */; };
-		B32842EE47B56682E84600830756E00D /* VVTools_icon_h5.png in Sources */ = {isa = PBXBuildFile; fileRef = B3417A17B3B4832BA9D60E586B05D085 /* VVTools_icon_h5.png */; };
-		B40842A649675A284E3EBE6FE674F1F7 /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB6FDBEF4B018B60843FC1FE0F5939 /* BSBacktraceLogger.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B4650E1F5584D2A988BCCF1226FA2E07 /* MonitorListWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDADB94A397D2C8486D3A66E21742F8 /* MonitorListWindow.swift */; };
-		BE37A6A57349E2816620897738B8FA67 /* MemoryDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769C1C6F3772FBBDFDA4314159E29F90 /* MemoryDashboardViewController.swift */; };
-		BF4DCF3506A6ED211993F655DC41E1C9 /* ASLDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78955BBFAE865403F2BD35278BCBF2 /* ASLDashboardViewController.swift */; };
-		C2E413D9C97F30EF26126BA3A3ACD4FB /* VVToolsURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA404EAA06E597FA693A1D7EB9974627 /* VVToolsURLProtocol.swift */; };
-		C2FA37DBEDD2ED346B1474CF067ED3CC /* CPUMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75466F33D07619B65D8458DC69F729E0 /* CPUMonitor.swift */; };
-		C5180C418DCEFC7E00AAA195306E7BB8 /* CPUDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7684F4E2703F582FB7C18CD5EFCFFD5F /* CPUDashboardViewController.swift */; };
-		C573B76A3AA0712FE68B7DC09763803E /* NetworkObserverSoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D43DB115243B3EE47031E6604C2158 /* NetworkObserverSoldier.swift */; };
-		CF47B1902F1AB07BEF86845EAA176B3E /* CaptainFloatingWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E69768CCF12503FA161F54C21C3148 /* CaptainFloatingWindow.swift */; };
-		D26098A048F6B20E8390F42B07237574 /* ANRFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB8920AEDAA72324621A7F7489B3C5F /* ANRFileManager.swift */; };
-		D6C0BB31DE98E7E8D51C9E34F22852BA /* ANRMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631B9B6EAE5CE2D40B3B967BAAE7929 /* ANRMonitor.swift */; };
-		DD9772F81DCDFDF71CBE2E2A426126EC /* NetworkObserverDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2559FE9070AFB5C33BCC7D8BDC81414 /* NetworkObserverDashboardViewController.swift */; };
+		45130608C78B388389459465A0CD75C6 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D5E0D8E95A66967756E814FE9CCB27 /* BaseTableViewController.swift */; };
+		46B868E0DA92E3C9B692D02131505305 /* UserDefaultsKeyValuesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B31D31C33A790A191D1FA9AC207208 /* UserDefaultsKeyValuesListViewController.swift */; };
+		48EB0B5D88EAEB693E7796B3CBCA91B1 /* MemorySoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827482552A087068F16EED5337F78F02 /* MemorySoldier.swift */; };
+		4C244557C447B4EE9042148151629D07 /* FileBrowserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBEFF1AC82900CA295533D089D44580 /* FileBrowserController.swift */; };
+		4E70C03F06A4230C16A510DD9067DDB4 /* UserDefaultsSoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F5ACA5E2A367D56D9332C9B7FB5B59 /* UserDefaultsSoldier.swift */; };
+		564E6223AA99A5CFAEB4676ED527AC04 /* TableListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5330B50F9A5CD24817B09D75BE387107 /* TableListViewController.swift */; };
+		56B330905B1DA386F3845352CBE51FD6 /* WebsiteEntrySoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206065453F7587C0FD534E184472CB03 /* WebsiteEntrySoldier.swift */; };
+		5B0667A636BD00D18FC8753A70A5DC2B /* SanboxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3671B156833B9EDABD9B8B6643193BEA /* SanboxModel.swift */; };
+		5D1E683DFD5FB7201B82C66162A55ADE /* Preparer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327004919F088E2965223D586B1F8BC1 /* Preparer.swift */; };
+		5EAA3C447D1AFAF979281C8AB418FE5D /* MemoryDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713516CF3E17FAFC077997B6673A6FD /* MemoryDashboardViewController.swift */; };
+		65801CD2DBD492FCAF78860006D2D99F /* AppInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109C36189114ED447B0A96F4B23E882D /* AppInfoManager.swift */; };
+		66630EC40B182B6FC4B75E70B61FDCAD /* MonitorConsoleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B24D01CD6C2A31C740354930BEAED84 /* MonitorConsoleLabel.swift */; };
+		6AD3A250EE8E71456DBBBBC193269FBB /* VVTools_icon_crash.png in Sources */ = {isa = PBXBuildFile; fileRef = BEBB434EF6D40176924383E20189C270 /* VVTools_icon_crash.png */; };
+		6D43783707AAFE481D3FF4740A8ABA85 /* CrashFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74DC0113BAC957A82094FFDD52F2C52 /* CrashFileManager.swift */; };
+		6DCA9C3B420E1A38E09450B2EE133074 /* AppSwizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4B408DBC5EFC3B5C8C3AB3FF687B82 /* AppSwizzle.swift */; };
+		7066FC5D2E9C372A38355298A09AD88F /* ANRDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F92D2E499389008FD2C056D2CAD7F1 /* ANRDashboardViewController.swift */; };
+		73BE5D06AB5D849AA8854D5703D6A88C /* DispatchQueue+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA8DD59F4F9457786886C9A040BDA5E /* DispatchQueue+.swift */; };
+		76CEB125764B1717F5E07115008C964D /* SoldierFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630872AF6F1D5C28293D45DAE1343809 /* SoldierFileManager.swift */; };
+		7974F44D55CD7C18400C64967EB126D7 /* SanboxBrowserSoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A3625AA1A150B46C08C013BD9A8796 /* SanboxBrowserSoldier.swift */; };
+		7C20FAEE3817EC68FD1A9919831EA118 /* NetworkFlowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE143E6D1749041777EF52253180A391 /* NetworkFlowModel.swift */; };
+		7FF228E92C21C90DE0AEAB9F4A28A522 /* ANRSoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27F871870427BF203D1DEED570FA756 /* ANRSoldier.swift */; };
+		82F9A1CE17921E2206D2E784A3E17A8E /* CPUMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A3B0E9D0EB0D4768BD247E64F72EEF /* CPUMonitor.swift */; };
+		835CA8D212CDC0C4F65CCB334D592935 /* NetworkFlowDetailSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9FC9E9CF778F9BF15EACB84356453 /* NetworkFlowDetailSectionModel.swift */; };
+		8664DE13F1178FAF617DBDAA2F59C86B /* NetworkObserverSoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E2F6EFB5F317B554B069417332258B /* NetworkObserverSoldier.swift */; };
+		891B79B49527D71771610BD02DBC5782 /* VVTools_icon_network.png in Sources */ = {isa = PBXBuildFile; fileRef = CF4667EBCD8E0A7463962F2FAD5BEFBF /* VVTools_icon_network.png */; };
+		8D31F1DED692CAC62C2A65246DD57E2E /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED75B1DEB862A53F3DC0A7F4425CAC3 /* BSBacktraceLogger.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8D9A8D91FD811E520877021CC9179265 /* VVToolsURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316CE300D237D1A6B31FC758D22F06B7 /* VVToolsURLProtocol.swift */; };
+		8EE749EE3D70B54515BD246B440477C9 /* ASLFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED593BB82875E6F0AA8AA496BCE8C100 /* ASLFileManager.swift */; };
+		8F60D3F9C7C00399E08284C00E2F5FAF /* DatabaseConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329A6EBED6F7EB6AA6A2917298A027D2 /* DatabaseConnector.swift */; };
+		96D973944579B47E2740BCE67E7023DA /* DashboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ECA7F34C5452AA4D0668CFE060B482 /* DashboardCell.swift */; };
+		972A1FC386CAA11A257B6F48875FFFF9 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B4E1D948899139F971737B3A141235B7 /* Resource.bundle */; };
+		98B0938D33AD9ED377C7171FDC2CE9EC /* ANRListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8978029539ACDDE4DAD3D048129C4A9F /* ANRListViewController.swift */; };
+		99189D6895F2A6B9BA427FF0BD828C5B /* ANRMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA035B9F208FC3CF6408D98CEDCDED5 /* ANRMonitor.swift */; };
+		99DAA0AC843B50C5193E7F3C95D414A8 /* NSObject+Alive.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0A7C7BA2EC57759A92EDA56A4ECED5 /* NSObject+Alive.swift */; };
+		9CDBC254104D6FC91BB676C9F820F115 /* VVTools_icon_anr.png in Sources */ = {isa = PBXBuildFile; fileRef = 14D049D28ACC6E24A0741B8CD085F1EC /* VVTools_icon_anr.png */; };
+		9D0C1DEBCA558142FAD70E08C1A94D7E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		9F0487FF82182775883E1CAE369FB679 /* ANRPingThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DAE4F9A353EDD67178A09A26239A79 /* ANRPingThread.swift */; };
+		A27931C5FDAC841236805DE37482C8CA /* SoldierListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747815F1E210680B5ACD9EF25A12796D /* SoldierListViewController.swift */; };
+		A701B6FACA17D78C48CEABBD41282431 /* ASLListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B7A30022F76EA81EC234070AA4EB99 /* ASLListViewController.swift */; };
+		A850758CDF0E87EA83CB608FCEAC4898 /* WebsiteEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0DDAABCA00B587A2FD235DBB073410 /* WebsiteEntryViewController.swift */; };
+		A8D4113357DF92FFF59DF068E2AF34CF /* CrashUncaughtExceptionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92D50A7E13ACDD6307535F099288BE /* CrashUncaughtExceptionHandler.swift */; };
+		ACFCD762020E556E28A9F8034EC7D0B3 /* VVTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E722E0CDFAC8CD9624DA0588EB49A7 /* VVTools-dummy.m */; };
+		AD4BAE29A9FF9042DD90ABD9EA78D886 /* CPUSoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A9F7D9F5DE32549491750061B0BBAC /* CPUSoldier.swift */; };
+		AEF449A326443CAEA11B59AB876B056B /* ASL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7AB096FD788744C32DE2B5E7DF5FC5 /* ASL.swift */; };
+		B22133E25BBE8B4B2068E9823803AE7D /* WebDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11765FF431308976E0E33E597759CDA3 /* WebDetailViewController.swift */; };
+		B29DCA4A8D6E883314F43B2FFBED9575 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745E9102FCE0F6577F7C03F6E45A02F /* BaseViewController.swift */; };
+		B309A3E937EBD53ED1CF676B4FE2A105 /* ASLSoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E2D1DC87AC4D160BCCD32DFE9D20F8 /* ASLSoldier.swift */; };
+		B4A10B175E10130097A1105C52B1EE02 /* CaptainFloatingWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D9F9655A32F8CAD334E469D5E43C5 /* CaptainFloatingWindow.swift */; };
+		B5DCD9D7C19880BE55F98751B4E26C5C /* VVTools_icon_sanbox.png in Sources */ = {isa = PBXBuildFile; fileRef = 26FAF386C9E0CDB62B9A1E8893D5DB73 /* VVTools_icon_sanbox.png */; };
+		B60E0762AE608D7966E2316DDBC0E127 /* CaptainDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A3D02CF3BB76EB0A3D9E10B819A28 /* CaptainDefines.swift */; };
+		B673CCFE3C76D29F6F50113A5916D57C /* CrashSoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DFB00051C447FCCF1EB54BB6123E68 /* CrashSoldier.swift */; };
+		B96CFA275A0D166AFC9AAA6450849BE0 /* LeakSoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A188ABF730D5188425FD52C5E81F28E /* LeakSoldier.swift */; };
+		BADE699BE2FB226800AE45FD93EE5BD2 /* VVTools_icon_app_user_defaults.png in Sources */ = {isa = PBXBuildFile; fileRef = 3F769F20375742234606A38F7555A765 /* VVTools_icon_app_user_defaults.png */; };
+		BAE09604606DEB073C204E3A72C27439 /* CrashDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9282DD48A053C61EE8557DC7EBD4A /* CrashDashboardViewController.swift */; };
+		C213445BE9976E696F7BC40F00F86760 /* NetworkFlowListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B8F05499D5FEA67969D163A00374FC /* NetworkFlowListViewController.swift */; };
+		C5D677C89A6F47BF2FD50E4577E49FC0 /* VVTools_icon_shield.png in Sources */ = {isa = PBXBuildFile; fileRef = 27F513A71C1AD6C95C1BBC8713D4F284 /* VVTools_icon_shield.png */; };
+		D037F8FF89186862D31A7ECC59D41059 /* VVTools_icon_fps.png in Sources */ = {isa = PBXBuildFile; fileRef = 4B685376601D5E402C74358DC3BE1532 /* VVTools_icon_fps.png */; };
+		D751BD9AC5198DF5AF5EE0AA618EEDBE /* UserDefaults+Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88746158E968D014830302F9FF87D1AB /* UserDefaults+Access.swift */; };
+		D879E075B6AFC831C69803B25A798AE5 /* NSNotification+Leak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EDEE9DD3F6082879C8B0E8F329B192 /* NSNotification+Leak.swift */; };
+		E081FB882BEF9636D43AF230234DAE45 /* VVTools_icon_h5.png in Sources */ = {isa = PBXBuildFile; fileRef = 5B9F3F74D3F3C54F6E0B7F6F52CC16BF /* VVTools_icon_h5.png */; };
+		E2541F254C5DF1313DEEEDA34453B399 /* VVTools_icon_cpu.png in Sources */ = {isa = PBXBuildFile; fileRef = E76569B839DF818F76ECA4DC1FAEDA07 /* VVTools_icon_cpu.png */; };
 		E2C668B5446553A0A3479FBC993750F7 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */; };
-		E62A9273D707724684353244C52EE502 /* MonitorConsoleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C803CB07E32974ADBC1E53B2EDC74C /* MonitorConsoleLabel.swift */; };
-		E6A813F96CD8554852EE5767592C4205 /* VVTools_icon_fps.png in Sources */ = {isa = PBXBuildFile; fileRef = 0D292F7343A78A87A7FEF87D0B79DAE6 /* VVTools_icon_fps.png */; };
-		E7A7FA4DB8067272F71A72F2ABFD9886 /* VVTools_icon_anr.png in Sources */ = {isa = PBXBuildFile; fileRef = BB440D86FAD69388413B080C22CDC8A0 /* VVTools_icon_anr.png */; };
-		EA9282DFC6BDFEDF4D95EFD588424758 /* AppInfoSoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C950C52D772E45624357ED13B140971A /* AppInfoSoldier.swift */; };
-		EAC9F8CF4353259D3ECBB76440C20718 /* MemorySoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFD248E55EC0446AFBFFCC1FF910B69 /* MemorySoldier.swift */; };
-		ED0C94E407ECA59F86D0FDA6AE21B21F /* CPUSoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1588533B00A4E392451993D50FE6D /* CPUSoldier.swift */; };
-		F23C01C78AC9F7F0CDA1FC3487160ABB /* CrashSignalExceptionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECD363B4B540737A3CE4286635A9FB2 /* CrashSignalExceptionHandler.swift */; };
-		F5784E8C253AD4F872D008CD5419DE0F /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18551E83DB53B0E01E518DB9DA4CBD4 /* ImageManager.swift */; };
-		FE4BEC4E99EED4D7186A1BF781FBB9E7 /* SoldierListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC903C1B62ED2651DBF3B2652CB357 /* SoldierListViewController.swift */; };
+		E7C89B0D263DDCF2C741F31B2E0615D6 /* SoldierListSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE05F57BBA7277AF6B87D3A87D3797DF /* SoldierListSectionModel.swift */; };
+		E8BA35D13874238C17D2D43E9BEB9793 /* NetworkFlowDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57240827A84E2D2EF9B373AB67CD192B /* NetworkFlowDetailViewController.swift */; };
+		E96F91A3C8A109EFE7DE66C76012D70F /* CPUDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC8D3075407C5CF7562C136A23B7CAC /* CPUDashboardViewController.swift */; };
+		E975C115C972B30946D52369604F3D84 /* ASLDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342D84608B9FAE4FB7FAD2615B28F427 /* ASLDashboardViewController.swift */; };
+		EE61E98EFF3EC488B7AD36292EBF441B /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A807349260599E9030EB5D9D33B42A2 /* Variable.swift */; };
+		EFDA0384F4422C9978E548A6484E2B69 /* FPSDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E09466FC62A1DDD7FAE6E7E7087E18 /* FPSDashboardViewController.swift */; };
+		F03600EF637FB34CE2A3EA761AA825FF /* BSBacktraceLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = B5253F93488A99D981C7DE45730A6275 /* BSBacktraceLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1711CC738DAFBFB0E0423E93BFE8501 /* NetworkObserverDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85B7E0C3F6725FBF42C5403C711637E /* NetworkObserverDashboardViewController.swift */; };
+		F9D130D3420A49AE306D1ABEBF009248 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907767E7C30FFC01CC8202E6D12FD4FB /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5742818475788BF41E021D95CAA61B6A /* PBXContainerItemProxy */ = {
+		FA5F61FDF6D42BE3C375CBF112277A0B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -111,124 +124,128 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		015EED759D15E02A43292DBD76EA2FD3 /* UserDefaultsKeyValueDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeyValueDetailViewController.swift; sourceTree = "<group>"; };
-		06FA6F77BBCBF8461E634721F029181A /* NetworkFlowResponseDataDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkFlowResponseDataDetailViewController.swift; sourceTree = "<group>"; };
-		0ABCF5852B49E6E480DDCE27D7EB7254 /* DashboardCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DashboardCell.swift; sourceTree = "<group>"; };
-		0CC26E86D380DA0917B4C512465A251A /* TableContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableContentViewController.swift; sourceTree = "<group>"; };
-		0D292F7343A78A87A7FEF87D0B79DAE6 /* VVTools_icon_fps.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VVTools_icon_fps.png; sourceTree = "<group>"; };
-		0EAB6FDBEF4B018B60843FC1FE0F5939 /* BSBacktraceLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BSBacktraceLogger.m; sourceTree = "<group>"; };
-		1093C5FB81C109F7DE0E9A649481A770 /* WebsiteEntryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebsiteEntryViewController.swift; sourceTree = "<group>"; };
-		12308D08F4B724F6D6B14FE418292EF7 /* SanboxBrowserSoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SanboxBrowserSoldier.swift; sourceTree = "<group>"; };
-		1BF3B86CD97C5607F687BBC25A582AFC /* UserDefaultsKeyValueModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeyValueModel.swift; sourceTree = "<group>"; };
-		1C9A9D704B9447066DBAD0F722C9327B /* MemoryMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MemoryMonitor.swift; sourceTree = "<group>"; };
-		1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Example"; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00ECA7F34C5452AA4D0668CFE060B482 /* DashboardCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DashboardCell.swift; sourceTree = "<group>"; };
+		0336BFB86ECF5C96850FB2F8D6799234 /* MonitorListWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MonitorListWindow.swift; sourceTree = "<group>"; };
+		09EDEE9DD3F6082879C8B0E8F329B192 /* NSNotification+Leak.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSNotification+Leak.swift"; sourceTree = "<group>"; };
+		0F2B0032D9B183F8B764706A77E172A6 /* VVTools_icon_app_info.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VVTools_icon_app_info.png; sourceTree = "<group>"; };
+		109C36189114ED447B0A96F4B23E882D /* AppInfoManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppInfoManager.swift; sourceTree = "<group>"; };
+		11765FF431308976E0E33E597759CDA3 /* WebDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebDetailViewController.swift; sourceTree = "<group>"; };
+		12EC53B6D28525071F2EF9D4C08B9B4C /* FPSMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPSMonitor.swift; sourceTree = "<group>"; };
+		13259E9C99E0CADFAD19F510752F4F14 /* VVTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VVTools.debug.xcconfig; sourceTree = "<group>"; };
+		14D049D28ACC6E24A0741B8CD085F1EC /* VVTools_icon_anr.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VVTools_icon_anr.png; sourceTree = "<group>"; };
+		15A9F7D9F5DE32549491750061B0BBAC /* CPUSoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CPUSoldier.swift; sourceTree = "<group>"; };
+		1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		206065453F7587C0FD534E184472CB03 /* WebsiteEntrySoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebsiteEntrySoldier.swift; sourceTree = "<group>"; };
 		243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		259BCF2EEE42EB2FE8714F3752795BC5 /* CrashFileManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CrashFileManager.swift; sourceTree = "<group>"; };
-		25C803CB07E32974ADBC1E53B2EDC74C /* MonitorConsoleLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MonitorConsoleLabel.swift; sourceTree = "<group>"; };
-		2DB1588533B00A4E392451993D50FE6D /* CPUSoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CPUSoldier.swift; sourceTree = "<group>"; };
-		2E829AE9474581BA625C92C34AA1F8A5 /* UserDefaultsSoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaultsSoldier.swift; sourceTree = "<group>"; };
-		2F3B8B2BBB2750DEF3A3FF8686FFDDA6 /* VVTools */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VVTools; path = VVTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FAF386C9E0CDB62B9A1E8893D5DB73 /* VVTools_icon_sanbox.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VVTools_icon_sanbox.png; sourceTree = "<group>"; };
+		27F513A71C1AD6C95C1BBC8713D4F284 /* VVTools_icon_shield.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VVTools_icon_shield.png; sourceTree = "<group>"; };
+		28F91E9C3C1695D76D43253AC3C9F712 /* VVTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VVTools.modulemap; sourceTree = "<group>"; };
+		2C92D50A7E13ACDD6307535F099288BE /* CrashUncaughtExceptionHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CrashUncaughtExceptionHandler.swift; sourceTree = "<group>"; };
+		2ECC04EF55F448A23E6CEC5727FAA09B /* TableContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableContentViewController.swift; sourceTree = "<group>"; };
+		2F3B8B2BBB2750DEF3A3FF8686FFDDA6 /* VVTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VVTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		316CE300D237D1A6B31FC758D22F06B7 /* VVToolsURLProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VVToolsURLProtocol.swift; sourceTree = "<group>"; };
 		31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
+		327004919F088E2965223D586B1F8BC1 /* Preparer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Preparer.swift; sourceTree = "<group>"; };
+		329A6EBED6F7EB6AA6A2917298A027D2 /* DatabaseConnector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DatabaseConnector.swift; sourceTree = "<group>"; };
+		342D84608B9FAE4FB7FAD2615B28F427 /* ASLDashboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ASLDashboardViewController.swift; sourceTree = "<group>"; };
 		35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
-		3FBF29215B0B47100A5EB27F506C5A21 /* UserDefaultsKeyValuesListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeyValuesListViewController.swift; sourceTree = "<group>"; };
-		407B1E69C23BC8AB57D3BA3ED48114A7 /* FileListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileListViewController.swift; sourceTree = "<group>"; };
+		3671B156833B9EDABD9B8B6643193BEA /* SanboxModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SanboxModel.swift; sourceTree = "<group>"; };
+		36C15AC1983F3C6D169D6BC0615D6F54 /* NSObject+Eye.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSObject+Eye.swift"; sourceTree = "<group>"; };
+		3713516CF3E17FAFC077997B6673A6FD /* MemoryDashboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MemoryDashboardViewController.swift; sourceTree = "<group>"; };
+		3F769F20375742234606A38F7555A765 /* VVTools_icon_app_user_defaults.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VVTools_icon_app_user_defaults.png; sourceTree = "<group>"; };
+		3FA035B9F208FC3CF6408D98CEDCDED5 /* ANRMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ANRMonitor.swift; sourceTree = "<group>"; };
+		418BE79965A7F93ABBAF667CEECA6F03 /* CaptainFloatingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CaptainFloatingViewController.swift; sourceTree = "<group>"; };
+		43B7A30022F76EA81EC234070AA4EB99 /* ASLListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ASLListViewController.swift; sourceTree = "<group>"; };
 		441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		44B837F09662E1EE50AFAD6633D8C7BC /* ASL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ASL.swift; sourceTree = "<group>"; };
-		4504191A79B89BFBCD99D38DA52C7EA1 /* NetworkFlowDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkFlowDetailViewController.swift; sourceTree = "<group>"; };
-		450A28986AE078A41705140863A60E35 /* BSBacktraceLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
-		4BDADB94A397D2C8486D3A66E21742F8 /* MonitorListWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MonitorListWindow.swift; sourceTree = "<group>"; };
-		4DB8920AEDAA72324621A7F7489B3C5F /* ANRFileManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ANRFileManager.swift; sourceTree = "<group>"; };
-		4F272949547329F326A7029390F82BFA /* TextPreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextPreviewViewController.swift; sourceTree = "<group>"; };
-		4FEDF23CB64173FC61E91CCC0FFAF612 /* VVTools_icon_shield.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VVTools_icon_shield.png; sourceTree = "<group>"; };
-		534754977DCB75B0BB91A093E0E5322B /* FPSSoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPSSoldier.swift; sourceTree = "<group>"; };
-		53BA78AF1F91639E99CFAC4D0FBCC5F7 /* VVTools_icon_crash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VVTools_icon_crash.png; sourceTree = "<group>"; };
-		548C8895E3A95200ECFD943FEE0B0104 /* VVTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VVTools-dummy.m"; sourceTree = "<group>"; };
-		5602D310A9A864823EE6AC11EA7E2929 /* VVTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VVTools-prefix.pch"; sourceTree = "<group>"; };
-		5723B196C12C312E10FDA4231C7BD1C1 /* ASLListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ASLListViewController.swift; sourceTree = "<group>"; };
-		59BD3EDBF972A1156240299E8C97A000 /* WebDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebDetailViewController.swift; sourceTree = "<group>"; };
-		5BFD248E55EC0446AFBFFCC1FF910B69 /* MemorySoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MemorySoldier.swift; sourceTree = "<group>"; };
-		60D7F1554BC89288B9BF5F783F8E3817 /* NetworkFlowListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkFlowListViewController.swift; sourceTree = "<group>"; };
-		611D6F7BCFF4F68184E0EEE166E82B71 /* VVTools_icon_sanbox.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VVTools_icon_sanbox.png; sourceTree = "<group>"; };
-		62BDF657630977672F9F38A82D9F9C85 /* NetworkFlowDetailSectionModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkFlowDetailSectionModel.swift; sourceTree = "<group>"; };
-		62DDE776D5833B2061AAE372E0252E38 /* Resource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Resource.bundle; path = VVTools/Resources/Resource.bundle; sourceTree = "<group>"; };
-		6DD0B18CE643DC7881EF4430972F4268 /* VVTools_icon_memory.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VVTools_icon_memory.png; sourceTree = "<group>"; };
-		700A684FAA087BD1C9D7016DBB47BC79 /* VVTools_icon_cpu.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VVTools_icon_cpu.png; sourceTree = "<group>"; };
-		70A3A142F52F9BFEA466B1B87C2D5091 /* ANRPingThread.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ANRPingThread.swift; sourceTree = "<group>"; };
-		75466F33D07619B65D8458DC69F729E0 /* CPUMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CPUMonitor.swift; sourceTree = "<group>"; };
-		75B51A3A7A9E3738674635DBF2D13A37 /* ASLSoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ASLSoldier.swift; sourceTree = "<group>"; };
-		7684F4E2703F582FB7C18CD5EFCFFD5F /* CPUDashboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CPUDashboardViewController.swift; sourceTree = "<group>"; };
-		769C1C6F3772FBBDFDA4314159E29F90 /* MemoryDashboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MemoryDashboardViewController.swift; sourceTree = "<group>"; };
+		484277B694892B25C4085DA453A871B8 /* VVTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VVTools-prefix.pch"; sourceTree = "<group>"; };
+		49979B3FE8FE3EA6A9F1B7771809115F /* ANRFileManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ANRFileManager.swift; sourceTree = "<group>"; };
+		4A188ABF730D5188425FD52C5E81F28E /* LeakSoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeakSoldier.swift; sourceTree = "<group>"; };
+		4A71152D2A673A75E1BAFA8FF9EF3CED /* CrashListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CrashListViewController.swift; sourceTree = "<group>"; };
+		4A9A3D02CF3BB76EB0A3D9E10B819A28 /* CaptainDefines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CaptainDefines.swift; sourceTree = "<group>"; };
+		4AF37DD2A67236269643DD26DE47375C /* LeakListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeakListViewController.swift; sourceTree = "<group>"; };
+		4B685376601D5E402C74358DC3BE1532 /* VVTools_icon_fps.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VVTools_icon_fps.png; sourceTree = "<group>"; };
+		4D67B584E319ECA67C56D00125C620B4 /* NetworkFlowResponseDataDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkFlowResponseDataDetailViewController.swift; sourceTree = "<group>"; };
+		5330B50F9A5CD24817B09D75BE387107 /* TableListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableListViewController.swift; sourceTree = "<group>"; };
+		5446801ACE750AD1631D0CB8451CEAEA /* String+Leak.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Leak.swift"; sourceTree = "<group>"; };
+		54E2F6EFB5F317B554B069417332258B /* NetworkObserverSoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkObserverSoldier.swift; sourceTree = "<group>"; };
+		56DFB00051C447FCCF1EB54BB6123E68 /* CrashSoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CrashSoldier.swift; sourceTree = "<group>"; };
+		57240827A84E2D2EF9B373AB67CD192B /* NetworkFlowDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkFlowDetailViewController.swift; sourceTree = "<group>"; };
+		58B8F05499D5FEA67969D163A00374FC /* NetworkFlowListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkFlowListViewController.swift; sourceTree = "<group>"; };
+		5A39474EAA8904D3AD62091EE18667AF /* TextPreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextPreviewViewController.swift; sourceTree = "<group>"; };
+		5A807349260599E9030EB5D9D33B42A2 /* Variable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
+		5B9F3F74D3F3C54F6E0B7F6F52CC16BF /* VVTools_icon_h5.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VVTools_icon_h5.png; sourceTree = "<group>"; };
+		630872AF6F1D5C28293D45DAE1343809 /* SoldierFileManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SoldierFileManager.swift; sourceTree = "<group>"; };
+		6563629D65C4706684487CD9F7A0C2E2 /* VVTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VVTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		65D5E0D8E95A66967756E814FE9CCB27 /* BaseTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		660E02EA808FAE246737CB2BAD032E4A /* LeakDashboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeakDashboardViewController.swift; sourceTree = "<group>"; };
+		67DAE4F9A353EDD67178A09A26239A79 /* ANRPingThread.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ANRPingThread.swift; sourceTree = "<group>"; };
+		6B24D01CD6C2A31C740354930BEAED84 /* MonitorConsoleLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MonitorConsoleLabel.swift; sourceTree = "<group>"; };
+		6ED75B1DEB862A53F3DC0A7F4425CAC3 /* BSBacktraceLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BSBacktraceLogger.m; sourceTree = "<group>"; };
+		747815F1E210680B5ACD9EF25A12796D /* SoldierListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SoldierListViewController.swift; sourceTree = "<group>"; };
+		74B31D31C33A790A191D1FA9AC207208 /* UserDefaultsKeyValuesListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeyValuesListViewController.swift; sourceTree = "<group>"; };
+		76E2D1DC87AC4D160BCCD32DFE9D20F8 /* ASLSoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ASLSoldier.swift; sourceTree = "<group>"; };
 		7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		7AE526DAE58379F4374E025340CA4232 /* CaptainFloatingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CaptainFloatingViewController.swift; sourceTree = "<group>"; };
-		7B1572A4BE2F3B114AEC0059BADB8C21 /* CrashSoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CrashSoldier.swift; sourceTree = "<group>"; };
-		7BC64584F19F7337998E4B7B2B9ACFE6 /* NetworkManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		806B0BCB846F1C025888708FE654F967 /* VVTools_icon_app_info.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VVTools_icon_app_info.png; sourceTree = "<group>"; };
-		80B236D6055AA6F44D245C4CD11D5D33 /* FPSMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPSMonitor.swift; sourceTree = "<group>"; };
-		81E69768CCF12503FA161F54C21C3148 /* CaptainFloatingWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CaptainFloatingWindow.swift; sourceTree = "<group>"; };
-		8769466F78BC94D6D5B7815B7AD4DE92 /* FilePreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FilePreviewViewController.swift; sourceTree = "<group>"; };
-		89C679F8E0B764806B6BEFF1A5F25960 /* VVTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VVTools-Info.plist"; sourceTree = "<group>"; };
-		903AE456992A92D056DB745E447CFB66 /* SoldierListSectionModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SoldierListSectionModel.swift; sourceTree = "<group>"; };
-		9349ADB37DEFA0FFC1B67077C1F09033 /* VVTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VVTools.debug.xcconfig; sourceTree = "<group>"; };
-		94443D33B168EF92B79EE8CBF2AB03F6 /* ANRSoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ANRSoldier.swift; sourceTree = "<group>"; };
-		963FB64E06A57C31D68C4896F7D4DF4E /* ASLFileManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ASLFileManager.swift; sourceTree = "<group>"; };
-		9902CF0B0BB583E104BA3D760D6F6327 /* BaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F7179FC3E2DFA145CF61B8B8BD5950B /* DatabaseConnector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DatabaseConnector.swift; sourceTree = "<group>"; };
-		9F8EC4C44BA8D64B65088E6959136E2A /* FPSDashboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPSDashboardViewController.swift; sourceTree = "<group>"; };
-		A1F7822C96E0D3F09A5B205B790A0F67 /* Captain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Captain.swift; path = VVTools/Captain.swift; sourceTree = "<group>"; };
-		AD07BFBC5E6E358F345C51DBA39930E4 /* FileBrowserController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileBrowserController.swift; sourceTree = "<group>"; };
-		AE0D6D7EA4D2DA7407543D76CC81BB7C /* CrashUncaughtExceptionHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CrashUncaughtExceptionHandler.swift; sourceTree = "<group>"; };
-		AECD363B4B540737A3CE4286635A9FB2 /* CrashSignalExceptionHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CrashSignalExceptionHandler.swift; sourceTree = "<group>"; };
+		7880A67F81A6A4C4FD5164ED41BB715C /* MemoryMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MemoryMonitor.swift; sourceTree = "<group>"; };
+		7E4E71FE6272771DADEBB8F878C3B515 /* CrashSignalExceptionHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CrashSignalExceptionHandler.swift; sourceTree = "<group>"; };
+		827482552A087068F16EED5337F78F02 /* MemorySoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MemorySoldier.swift; sourceTree = "<group>"; };
+		82F92D2E499389008FD2C056D2CAD7F1 /* ANRDashboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ANRDashboardViewController.swift; sourceTree = "<group>"; };
+		88746158E968D014830302F9FF87D1AB /* UserDefaults+Access.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Access.swift"; sourceTree = "<group>"; };
+		8978029539ACDDE4DAD3D048129C4A9F /* ANRListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ANRListViewController.swift; sourceTree = "<group>"; };
+		89A3625AA1A150B46C08C013BD9A8796 /* SanboxBrowserSoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SanboxBrowserSoldier.swift; sourceTree = "<group>"; };
+		8AB9FC9E9CF778F9BF15EACB84356453 /* NetworkFlowDetailSectionModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkFlowDetailSectionModel.swift; sourceTree = "<group>"; };
+		8EABBBF9A403D3149772DF7DACA4A46B /* LeakFileManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeakFileManager.swift; sourceTree = "<group>"; };
+		907767E7C30FFC01CC8202E6D12FD4FB /* NetworkManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		90F5ACA5E2A367D56D9332C9B7FB5B59 /* UserDefaultsSoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaultsSoldier.swift; sourceTree = "<group>"; };
+		91880689FD99E10150328A393E1EDDB3 /* FileListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileListViewController.swift; sourceTree = "<group>"; };
+		988CC14BEA08DDB085B93A04933ED285 /* VVTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VVTools.release.xcconfig; sourceTree = "<group>"; };
+		9C18C259A4690D15D9D4D4ED86C93074 /* AppInfoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppInfoViewController.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE143E6D1749041777EF52253180A391 /* NetworkFlowModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkFlowModel.swift; sourceTree = "<group>"; };
 		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
-		B3417A17B3B4832BA9D60E586B05D085 /* VVTools_icon_h5.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VVTools_icon_h5.png; sourceTree = "<group>"; };
+		B1A3B0E9D0EB0D4768BD247E64F72EEF /* CPUMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CPUMonitor.swift; sourceTree = "<group>"; };
 		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B84D1E171A040277FBC6FECF5413879E /* TableListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableListViewController.swift; sourceTree = "<group>"; };
-		B9DF5E56D43D26589F20F7410853D320 /* WebsiteEntrySoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebsiteEntrySoldier.swift; sourceTree = "<group>"; };
-		B9FA555728D2A98BC6168D539B1BAD6D /* SoldierFileManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SoldierFileManager.swift; sourceTree = "<group>"; };
-		BA404EAA06E597FA693A1D7EB9974627 /* VVToolsURLProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VVToolsURLProtocol.swift; sourceTree = "<group>"; };
-		BB440D86FAD69388413B080C22CDC8A0 /* VVTools_icon_anr.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VVTools_icon_anr.png; sourceTree = "<group>"; };
-		BBADD58B52FF6A5D4D394FB2C3166671 /* VVTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VVTools.release.xcconfig; sourceTree = "<group>"; };
-		BC08239CBD6F8EE26A69D31066B0FC25 /* CrashDashboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CrashDashboardViewController.swift; sourceTree = "<group>"; };
-		BF78955BBFAE865403F2BD35278BCBF2 /* ASLDashboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ASLDashboardViewController.swift; sourceTree = "<group>"; };
-		C0D43DB115243B3EE47031E6604C2158 /* NetworkObserverSoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkObserverSoldier.swift; sourceTree = "<group>"; };
-		C16EC02519E174E2949BD0B69490B9C1 /* NetworkFlowDetailCellModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkFlowDetailCellModel.swift; sourceTree = "<group>"; };
-		C5A123BB30F606A66893C13C192120D9 /* VVTools_icon_app_user_defaults.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VVTools_icon_app_user_defaults.png; sourceTree = "<group>"; };
-		C74D1152B5FF292E3B41108ED48812B3 /* VVTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VVTools-umbrella.h"; sourceTree = "<group>"; };
-		C950C52D772E45624357ED13B140971A /* AppInfoSoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppInfoSoldier.swift; sourceTree = "<group>"; };
-		C9AC903C1B62ED2651DBF3B2652CB357 /* SoldierListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SoldierListViewController.swift; sourceTree = "<group>"; };
-		CC4FBDCD2DBD759F053762478E50D025 /* NetworkFlowModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkFlowModel.swift; sourceTree = "<group>"; };
-		D0108CE264F756032513C0049D7BE047 /* VVTools_icon_network.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VVTools_icon_network.png; sourceTree = "<group>"; };
-		D0B408896088673C812A3D1601BBF8BD /* CrashListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CrashListViewController.swift; sourceTree = "<group>"; };
+		B4E1D948899139F971737B3A141235B7 /* Resource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Resource.bundle; path = VVTools/Resources/Resource.bundle; sourceTree = "<group>"; };
+		B5253F93488A99D981C7DE45730A6275 /* BSBacktraceLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
+		B85A17469B7455A52D3E4BB65253FAA4 /* ObjectAgent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ObjectAgent.swift; sourceTree = "<group>"; };
+		BA6E5A88330B6E5922B5AE88BA14E0B2 /* Captain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Captain.swift; sourceTree = "<group>"; };
+		BB7AB096FD788744C32DE2B5E7DF5FC5 /* ASL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ASL.swift; sourceTree = "<group>"; };
+		BE37E49289078C9D7E25C229E0A870EF /* VVTools_icon_memory.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VVTools_icon_memory.png; sourceTree = "<group>"; };
+		BEBB434EF6D40176924383E20189C270 /* VVTools_icon_crash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VVTools_icon_crash.png; sourceTree = "<group>"; };
+		BF0DDAABCA00B587A2FD235DBB073410 /* WebsiteEntryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebsiteEntryViewController.swift; sourceTree = "<group>"; };
+		BFA8DD59F4F9457786886C9A040BDA5E /* DispatchQueue+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+.swift"; sourceTree = "<group>"; };
+		C3214C9382ABF3929F1C454E419B7904 /* ImageManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		C547BA9C20E7FE20B2D4937754714A3C /* VVTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VVTools-umbrella.h"; sourceTree = "<group>"; };
+		C745E9102FCE0F6577F7C03F6E45A02F /* BaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CCC8D3075407C5CF7562C136A23B7CAC /* CPUDashboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CPUDashboardViewController.swift; sourceTree = "<group>"; };
+		CD84EFCB397F38BB821F14AEDFD68C6A /* FilePreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FilePreviewViewController.swift; sourceTree = "<group>"; };
+		CE05F57BBA7277AF6B87D3A87D3797DF /* SoldierListSectionModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SoldierListSectionModel.swift; sourceTree = "<group>"; };
+		CF0A7C7BA2EC57759A92EDA56A4ECED5 /* NSObject+Alive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSObject+Alive.swift"; sourceTree = "<group>"; };
+		CF4667EBCD8E0A7463962F2FAD5BEFBF /* VVTools_icon_network.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VVTools_icon_network.png; sourceTree = "<group>"; };
+		D161699F2D4194B89B8882A201AE71BD /* FPSSoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPSSoldier.swift; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D2559FE9070AFB5C33BCC7D8BDC81414 /* NetworkObserverDashboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkObserverDashboardViewController.swift; sourceTree = "<group>"; };
+		D27F871870427BF203D1DEED570FA756 /* ANRSoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ANRSoldier.swift; sourceTree = "<group>"; };
+		D47468E1228968833B95AEF648CF5C9A /* VVTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VVTools-Info.plist"; sourceTree = "<group>"; };
+		D5E722E0CDFAC8CD9624DA0588EB49A7 /* VVTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VVTools-dummy.m"; sourceTree = "<group>"; };
 		D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		DA17CB5288A65A5EC82881B3F04FD050 /* UserDefaults+Access.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UserDefaults+Access.swift"; path = "VVTools/UserDefaults+Access.swift"; sourceTree = "<group>"; };
-		DB0CB3F3749E8210729754F63A39BA7F /* AppInfoManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppInfoManager.swift; sourceTree = "<group>"; };
-		DBFD3B7C1D9BB525DF3B077E7CC5AC4B /* VVTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VVTools.modulemap; sourceTree = "<group>"; };
-		DF3FF54EA118FB5FB90BEB91D045975A /* CaptainDefines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptainDefines.swift; path = VVTools/CaptainDefines.swift; sourceTree = "<group>"; };
-		DF75940F1F37352CDD7DB46E84BF645F /* ANRListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ANRListViewController.swift; sourceTree = "<group>"; };
-		E18551E83DB53B0E01E518DB9DA4CBD4 /* ImageManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		DC491DE836AB057D24CD5F18BF57BC62 /* NetworkFlowDetailCellModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkFlowDetailCellModel.swift; sourceTree = "<group>"; };
+		DCCE6505F4779C8F277277C66E97D408 /* ExcelView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExcelView.swift; sourceTree = "<group>"; };
+		E4E09466FC62A1DDD7FAE6E7E7087E18 /* FPSDashboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPSDashboardViewController.swift; sourceTree = "<group>"; };
+		E50651040AB5FEF12ADB2BDB94C48722 /* UserDefaultsKeyValueDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeyValueDetailViewController.swift; sourceTree = "<group>"; };
+		E75487E51B35A299D97C1C3D18601CDF /* UserDefaultsKeyValueModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeyValueModel.swift; sourceTree = "<group>"; };
+		E76569B839DF818F76ECA4DC1FAEDA07 /* VVTools_icon_cpu.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = VVTools_icon_cpu.png; sourceTree = "<group>"; };
 		EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		EFA9F93AE2A23EAC44644BB1A6351CCD /* ANRDashboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ANRDashboardViewController.swift; sourceTree = "<group>"; };
-		EFE35A96F4F00BF64EF38C1EED3410E6 /* BaseTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
-		F520E801DB5FF9B3DB40DB0D9A6FA7D8 /* SanboxModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SanboxModel.swift; sourceTree = "<group>"; };
-		F5BE5527271D35DD32C981B9F0E9857A /* AppInfoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppInfoViewController.swift; sourceTree = "<group>"; };
-		F631B9B6EAE5CE2D40B3B967BAAE7929 /* ANRMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ANRMonitor.swift; sourceTree = "<group>"; };
-		F63AC8BF01086A4E90B1E39E2C2C62B8 /* ExcelView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExcelView.swift; sourceTree = "<group>"; };
-		FE423AD49786BFAD385D1477411827AA /* VVTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VVTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EC1D9F9655A32F8CAD334E469D5E43C5 /* CaptainFloatingWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CaptainFloatingWindow.swift; sourceTree = "<group>"; };
+		ED4B408DBC5EFC3B5C8C3AB3FF687B82 /* AppSwizzle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppSwizzle.swift; sourceTree = "<group>"; };
+		ED593BB82875E6F0AA8AA496BCE8C100 /* ASLFileManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ASLFileManager.swift; sourceTree = "<group>"; };
+		EDBEFF1AC82900CA295533D089D44580 /* FileBrowserController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileBrowserController.swift; sourceTree = "<group>"; };
+		F1E837F122E8B59DEB990EC61BE9BAE1 /* AppInfoSoldier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppInfoSoldier.swift; sourceTree = "<group>"; };
+		F5C9282DD48A053C61EE8557DC7EBD4A /* CrashDashboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CrashDashboardViewController.swift; sourceTree = "<group>"; };
+		F74DC0113BAC957A82094FFDD52F2C52 /* CrashFileManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CrashFileManager.swift; sourceTree = "<group>"; };
+		F85B7E0C3F6725FBF42C5403C711637E /* NetworkObserverDashboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkObserverDashboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2AD13D7ACB046CFE45E8CE9A48A7C233 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				523C670B310BA7F65E8E9E50DE845DA7 /* Foundation.framework in Frameworks */,
-				5D1AAC56FFDA059BCC1C4A50D074F523 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3E554A47D109C609A6CFB82585682CA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -237,36 +254,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		52BF3B628C63A35922D21C1468DEA40C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D61635AE5C3D54017C14229DFA42D2 /* Foundation.framework in Frameworks */,
+				9D0C1DEBCA558142FAD70E08C1A94D7E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06C465D419999458B2451C888AE51F91 /* Resource.bundle */ = {
+		03599055C2951026978855A4D453131A /* ANR */ = {
 			isa = PBXGroup;
 			children = (
-				BB440D86FAD69388413B080C22CDC8A0 /* VVTools_icon_anr.png */,
-				806B0BCB846F1C025888708FE654F967 /* VVTools_icon_app_info.png */,
-				C5A123BB30F606A66893C13C192120D9 /* VVTools_icon_app_user_defaults.png */,
-				700A684FAA087BD1C9D7016DBB47BC79 /* VVTools_icon_cpu.png */,
-				53BA78AF1F91639E99CFAC4D0FBCC5F7 /* VVTools_icon_crash.png */,
-				0D292F7343A78A87A7FEF87D0B79DAE6 /* VVTools_icon_fps.png */,
-				B3417A17B3B4832BA9D60E586B05D085 /* VVTools_icon_h5.png */,
-				6DD0B18CE643DC7881EF4430972F4268 /* VVTools_icon_memory.png */,
-				D0108CE264F756032513C0049D7BE047 /* VVTools_icon_network.png */,
-				611D6F7BCFF4F68184E0EEE166E82B71 /* VVTools_icon_sanbox.png */,
-				4FEDF23CB64173FC61E91CCC0FFAF612 /* VVTools_icon_shield.png */,
+				3FA035B9F208FC3CF6408D98CEDCDED5 /* ANRMonitor.swift */,
+				67DAE4F9A353EDD67178A09A26239A79 /* ANRPingThread.swift */,
+				D27F871870427BF203D1DEED570FA756 /* ANRSoldier.swift */,
+				B5253F93488A99D981C7DE45730A6275 /* BSBacktraceLogger.h */,
+				6ED75B1DEB862A53F3DC0A7F4425CAC3 /* BSBacktraceLogger.m */,
 			);
-			name = Resource.bundle;
-			path = Resource.bundle;
+			path = ANR;
 			sourceTree = "<group>";
 		};
-		11826B63F042A526DBB4ADA8A22A960E /* WebsiteEntry */ = {
+		08D7F97FBB4614F086F3ECA22042642C /* UserDefaults */ = {
 			isa = PBXGroup;
 			children = (
-				59BD3EDBF972A1156240299E8C97A000 /* WebDetailViewController.swift */,
-				1093C5FB81C109F7DE0E9A649481A770 /* WebsiteEntryViewController.swift */,
+				90F5ACA5E2A367D56D9332C9B7FB5B59 /* UserDefaultsSoldier.swift */,
 			);
-			name = WebsiteEntry;
-			path = WebsiteEntry;
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		10A4468E62240BEA635452C227D71D3E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6563629D65C4706684487CD9F7A0C2E2 /* VVTools.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
@@ -280,107 +305,81 @@
 		180511039028968585AACAB08955EF23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */,
-				2F3B8B2BBB2750DEF3A3FF8686FFDDA6 /* VVTools */,
+				1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */,
+				2F3B8B2BBB2750DEF3A3FF8686FFDDA6 /* VVTools.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1862CFCDA126A170089A1D26AD2C05C6 /* Common */ = {
+		18D7B55BE027E0F5C270438CDAFD1EDE /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				0ABCF5852B49E6E480DDCE27D7EB7254 /* DashboardCell.swift */,
-				407B1E69C23BC8AB57D3BA3ED48114A7 /* FileListViewController.swift */,
-				25C803CB07E32974ADBC1E53B2EDC74C /* MonitorConsoleLabel.swift */,
-				4BDADB94A397D2C8486D3A66E21742F8 /* MonitorListWindow.swift */,
+				8448EC2D17FEFCF11679393F330FB9C6 /* File */,
+				30B77EB343357AEA6759B8789FE7BB88 /* Image */,
+				7B2F2380A4368156BD1BD8A6A36989D0 /* NetworkManager */,
 			);
-			name = Common;
-			path = Common;
+			name = Manager;
+			path = VVTools/Manager;
 			sourceTree = "<group>";
 		};
-		1BCEBD5E97B2E239E66AD69FAD5044C5 /* NetworkManager */ = {
+		20C50DAB1FABE1F8BF549E737C0C314F /* AppInfo */ = {
 			isa = PBXGroup;
 			children = (
-				7BC64584F19F7337998E4B7B2B9ACFE6 /* NetworkManager.swift */,
+				109C36189114ED447B0A96F4B23E882D /* AppInfoManager.swift */,
+				F1E837F122E8B59DEB990EC61BE9BAE1 /* AppInfoSoldier.swift */,
 			);
-			name = NetworkManager;
-			path = NetworkManager;
-			sourceTree = "<group>";
-		};
-		1FF8AEF1A9DA92F44CBBDF827B77C2F5 /* FPS */ = {
-			isa = PBXGroup;
-			children = (
-				9F8EC4C44BA8D64B65088E6959136E2A /* FPSDashboardViewController.swift */,
-			);
-			name = FPS;
-			path = FPS;
-			sourceTree = "<group>";
-		};
-		209FAD0E097D63D3EF0C655A25F49E11 /* AppInfo */ = {
-			isa = PBXGroup;
-			children = (
-				DB0CB3F3749E8210729754F63A39BA7F /* AppInfoManager.swift */,
-				C950C52D772E45624357ED13B140971A /* AppInfoSoldier.swift */,
-			);
-			name = AppInfo;
 			path = AppInfo;
 			sourceTree = "<group>";
 		};
-		227934242ECF2E581336E886492BA324 /* ANR */ = {
+		2E45789F5397CCAB4101C93EA113F9B6 /* FPS */ = {
 			isa = PBXGroup;
 			children = (
-				EFA9F93AE2A23EAC44644BB1A6351CCD /* ANRDashboardViewController.swift */,
-				DF75940F1F37352CDD7DB46E84BF645F /* ANRListViewController.swift */,
+				12EC53B6D28525071F2EF9D4C08B9B4C /* FPSMonitor.swift */,
+				D161699F2D4194B89B8882A201AE71BD /* FPSSoldier.swift */,
 			);
-			name = ANR;
-			path = ANR;
+			path = FPS;
 			sourceTree = "<group>";
 		};
-		25BA0DD0E977577193A68F819CF4869E /* CPU */ = {
+		30B77EB343357AEA6759B8789FE7BB88 /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				7684F4E2703F582FB7C18CD5EFCFFD5F /* CPUDashboardViewController.swift */,
+				C3214C9382ABF3929F1C454E419B7904 /* ImageManager.swift */,
 			);
-			name = CPU;
+			path = Image;
+			sourceTree = "<group>";
+		};
+		4336AD4D32B23173AAA73992E65EB3D2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				ED4B408DBC5EFC3B5C8C3AB3FF687B82 /* AppSwizzle.swift */,
+				BA6E5A88330B6E5922B5AE88BA14E0B2 /* Captain.swift */,
+				4A9A3D02CF3BB76EB0A3D9E10B819A28 /* CaptainDefines.swift */,
+				BFA8DD59F4F9457786886C9A040BDA5E /* DispatchQueue+.swift */,
+				5446801ACE750AD1631D0CB8451CEAEA /* String+Leak.swift */,
+				88746158E968D014830302F9FF87D1AB /* UserDefaults+Access.swift */,
+			);
+			name = Base;
+			path = VVTools/Base;
+			sourceTree = "<group>";
+		};
+		44A197F5882E296DECBBB315AC79118F /* CPU */ = {
+			isa = PBXGroup;
+			children = (
+				CCC8D3075407C5CF7562C136A23B7CAC /* CPUDashboardViewController.swift */,
+			);
 			path = CPU;
 			sourceTree = "<group>";
 		};
-		3D28F9E70EBD390E8985BACFEBE6B7C5 /* Soldiers */ = {
+		497646FBB54A499491A50DE587A5AE2D /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				CC6E6ADB0BDCCC0C03B31F8694ADAE2B /* ANR */,
-				209FAD0E097D63D3EF0C655A25F49E11 /* AppInfo */,
-				F70F8427CB5BCC733E4CAC38CD36CCF2 /* ASL */,
-				99B3657AE090DB1B30F74CA8ECE393F8 /* CPU */,
-				764B8416C3A27EA85E8C7E22D6C9D489 /* Crash */,
-				69329796D37B819C0BB063BDBC01ABAF /* FPS */,
-				A57F50DDA191A98D92AE81CED62FE4E5 /* Memory */,
-				BD51072FD64FEBBD12A5B6465EDEFE86 /* NetworkObserver */,
-				53131C0E6FE367C89EB4E4A285540541 /* SanboxBrowser */,
-				CDCEF2D536DCBC77B7F13A90B12F3244 /* UserDefaults */,
-				DC778AA7B508BA2FE2563DCE17EB8F04 /* WebsiteEntry */,
+				65D5E0D8E95A66967756E814FE9CCB27 /* BaseTableViewController.swift */,
+				C745E9102FCE0F6577F7C03F6E45A02F /* BaseViewController.swift */,
+				418BE79965A7F93ABBAF667CEECA6F03 /* CaptainFloatingViewController.swift */,
+				EC1D9F9655A32F8CAD334E469D5E43C5 /* CaptainFloatingWindow.swift */,
+				747815F1E210680B5ACD9EF25A12796D /* SoldierListViewController.swift */,
 			);
-			name = Soldiers;
-			path = VVTools/Soldiers;
-			sourceTree = "<group>";
-		};
-		53131C0E6FE367C89EB4E4A285540541 /* SanboxBrowser */ = {
-			isa = PBXGroup;
-			children = (
-				12308D08F4B724F6D6B14FE418292EF7 /* SanboxBrowserSoldier.swift */,
-			);
-			name = SanboxBrowser;
-			path = SanboxBrowser;
-			sourceTree = "<group>";
-		};
-		59A1E286D3B395C2970586EDD47C77C2 /* ASL */ = {
-			isa = PBXGroup;
-			children = (
-				BF78955BBFAE865403F2BD35278BCBF2 /* ASLDashboardViewController.swift */,
-				5723B196C12C312E10FDA4231C7BD1C1 /* ASLListViewController.swift */,
-			);
-			name = ASL;
-			path = ASL;
+			path = Main;
 			sourceTree = "<group>";
 		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
@@ -392,163 +391,136 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		63D002C2EC93E47F814F0B88E058B970 /* Pod */ = {
+		6198893DFC28E28C5115153E9A82F2B1 /* AppInfo */ = {
 			isa = PBXGroup;
 			children = (
-				FE423AD49786BFAD385D1477411827AA /* VVTools.podspec */,
+				9C18C259A4690D15D9D4D4ED86C93074 /* AppInfoViewController.swift */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		675F5480E8CB56D01A7ABE9FCF809C01 /* Memory */ = {
-			isa = PBXGroup;
-			children = (
-				769C1C6F3772FBBDFDA4314159E29F90 /* MemoryDashboardViewController.swift */,
-			);
-			name = Memory;
-			path = Memory;
-			sourceTree = "<group>";
-		};
-		69271829A2E62C574A4020EF8411496A /* AppInfo */ = {
-			isa = PBXGroup;
-			children = (
-				F5BE5527271D35DD32C981B9F0E9857A /* AppInfoViewController.swift */,
-			);
-			name = AppInfo;
 			path = AppInfo;
 			sourceTree = "<group>";
 		};
-		69329796D37B819C0BB063BDBC01ABAF /* FPS */ = {
+		62624CA9135CAD7D2966A1D79DA5D250 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				80B236D6055AA6F44D245C4CD11D5D33 /* FPSMonitor.swift */,
-				534754977DCB75B0BB91A093E0E5322B /* FPSSoldier.swift */,
+				DC491DE836AB057D24CD5F18BF57BC62 /* NetworkFlowDetailCellModel.swift */,
+				8AB9FC9E9CF778F9BF15EACB84356453 /* NetworkFlowDetailSectionModel.swift */,
+				AE143E6D1749041777EF52253180A391 /* NetworkFlowModel.swift */,
+				3671B156833B9EDABD9B8B6643193BEA /* SanboxModel.swift */,
+				CE05F57BBA7277AF6B87D3A87D3797DF /* SoldierListSectionModel.swift */,
+				E75487E51B35A299D97C1C3D18601CDF /* UserDefaultsKeyValueModel.swift */,
 			);
-			name = FPS;
-			path = FPS;
-			sourceTree = "<group>";
-		};
-		72846A38FFB3CBEA32DD43899E226EF9 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				C16EC02519E174E2949BD0B69490B9C1 /* NetworkFlowDetailCellModel.swift */,
-				62BDF657630977672F9F38A82D9F9C85 /* NetworkFlowDetailSectionModel.swift */,
-				CC4FBDCD2DBD759F053762478E50D025 /* NetworkFlowModel.swift */,
-				F520E801DB5FF9B3DB40DB0D9A6FA7D8 /* SanboxModel.swift */,
-				903AE456992A92D056DB745E447CFB66 /* SoldierListSectionModel.swift */,
-				1BF3B86CD97C5607F687BBC25A582AFC /* UserDefaultsKeyValueModel.swift */,
-			);
-			name = Model;
 			path = Model;
 			sourceTree = "<group>";
 		};
-		764B8416C3A27EA85E8C7E22D6C9D489 /* Crash */ = {
+		710BDB1F516FC5C5D671A519B3AF0ACE /* Soldiers */ = {
 			isa = PBXGroup;
 			children = (
-				AECD363B4B540737A3CE4286635A9FB2 /* CrashSignalExceptionHandler.swift */,
-				7B1572A4BE2F3B114AEC0059BADB8C21 /* CrashSoldier.swift */,
-				AE0D6D7EA4D2DA7407543D76CC81BB7C /* CrashUncaughtExceptionHandler.swift */,
+				03599055C2951026978855A4D453131A /* ANR */,
+				20C50DAB1FABE1F8BF549E737C0C314F /* AppInfo */,
+				CBE905A616DBA73C5BD3873A804620BF /* ASL */,
+				9822BF2DBCC8FB6C1A187B70A7245A77 /* CPU */,
+				78CE802A4589409A89158E17A16CA37C /* Crash */,
+				2E45789F5397CCAB4101C93EA113F9B6 /* FPS */,
+				A948F8D5AA794D8343F2693235620771 /* Leak */,
+				F07B3370A565A06D5E098B76378B9D87 /* Memory */,
+				9CE7661532BEAEAD5999231C3DD539E3 /* NetworkObserver */,
+				D225BC98B34BDD1F5A7CF3C8B193903A /* SanboxBrowser */,
+				08D7F97FBB4614F086F3ECA22042642C /* UserDefaults */,
+				9AD788DE0FCED48AF3E25EF2365E181A /* WebsiteEntry */,
 			);
-			name = Crash;
+			name = Soldiers;
+			path = VVTools/Soldiers;
+			sourceTree = "<group>";
+		};
+		78CE802A4589409A89158E17A16CA37C /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+				7E4E71FE6272771DADEBB8F878C3B515 /* CrashSignalExceptionHandler.swift */,
+				56DFB00051C447FCCF1EB54BB6123E68 /* CrashSoldier.swift */,
+				2C92D50A7E13ACDD6307535F099288BE /* CrashUncaughtExceptionHandler.swift */,
+			);
 			path = Crash;
 			sourceTree = "<group>";
 		};
-		772E879959FDB5C4B671377CD6761476 /* Image */ = {
+		7B2F2380A4368156BD1BD8A6A36989D0 /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				E18551E83DB53B0E01E518DB9DA4CBD4 /* ImageManager.swift */,
+				907767E7C30FFC01CC8202E6D12FD4FB /* NetworkManager.swift */,
 			);
-			name = Image;
-			path = Image;
+			path = NetworkManager;
 			sourceTree = "<group>";
 		};
-		7E25CACE9860C1F547E0BE62848F4806 /* UI */ = {
+		7E568CB7874F63AB4720E71115F27C0C /* Resource.bundle */ = {
 			isa = PBXGroup;
 			children = (
-				227934242ECF2E581336E886492BA324 /* ANR */,
-				69271829A2E62C574A4020EF8411496A /* AppInfo */,
-				59A1E286D3B395C2970586EDD47C77C2 /* ASL */,
-				1862CFCDA126A170089A1D26AD2C05C6 /* Common */,
-				25BA0DD0E977577193A68F819CF4869E /* CPU */,
-				F0BD751F71E0DD1CDA3F8731CA2E4263 /* Crash */,
-				1FF8AEF1A9DA92F44CBBDF827B77C2F5 /* FPS */,
-				B23D49813AAAE3C6F745AA0A9A979980 /* Main */,
-				675F5480E8CB56D01A7ABE9FCF809C01 /* Memory */,
-				72846A38FFB3CBEA32DD43899E226EF9 /* Model */,
-				821FD391084AFD7547E4CC6FEDA5575A /* NetworkObserver */,
-				855D0CEB43406ED4A255CAA734C44F40 /* SanboxBrowser */,
-				894E3F17405A2550EFA76F5426C379DB /* UserDefaults */,
-				11826B63F042A526DBB4ADA8A22A960E /* WebsiteEntry */,
+				14D049D28ACC6E24A0741B8CD085F1EC /* VVTools_icon_anr.png */,
+				0F2B0032D9B183F8B764706A77E172A6 /* VVTools_icon_app_info.png */,
+				3F769F20375742234606A38F7555A765 /* VVTools_icon_app_user_defaults.png */,
+				E76569B839DF818F76ECA4DC1FAEDA07 /* VVTools_icon_cpu.png */,
+				BEBB434EF6D40176924383E20189C270 /* VVTools_icon_crash.png */,
+				4B685376601D5E402C74358DC3BE1532 /* VVTools_icon_fps.png */,
+				5B9F3F74D3F3C54F6E0B7F6F52CC16BF /* VVTools_icon_h5.png */,
+				BE37E49289078C9D7E25C229E0A870EF /* VVTools_icon_memory.png */,
+				CF4667EBCD8E0A7463962F2FAD5BEFBF /* VVTools_icon_network.png */,
+				26FAF386C9E0CDB62B9A1E8893D5DB73 /* VVTools_icon_sanbox.png */,
+				27F513A71C1AD6C95C1BBC8713D4F284 /* VVTools_icon_shield.png */,
 			);
-			name = UI;
-			path = VVTools/UI;
+			path = Resource.bundle;
 			sourceTree = "<group>";
 		};
-		7EA289AD72601C3792304A232CD5BB7A /* Development Pods */ = {
+		8448EC2D17FEFCF11679393F330FB9C6 /* File */ = {
 			isa = PBXGroup;
 			children = (
-				EA6C56A81BAE608F293CB1992DD685B3 /* VVTools */,
+				49979B3FE8FE3EA6A9F1B7771809115F /* ANRFileManager.swift */,
+				ED593BB82875E6F0AA8AA496BCE8C100 /* ASLFileManager.swift */,
+				F74DC0113BAC957A82094FFDD52F2C52 /* CrashFileManager.swift */,
+				8EABBBF9A403D3149772DF7DACA4A46B /* LeakFileManager.swift */,
+				630872AF6F1D5C28293D45DAE1343809 /* SoldierFileManager.swift */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		821FD391084AFD7547E4CC6FEDA5575A /* NetworkObserver */ = {
-			isa = PBXGroup;
-			children = (
-				4504191A79B89BFBCD99D38DA52C7EA1 /* NetworkFlowDetailViewController.swift */,
-				60D7F1554BC89288B9BF5F783F8E3817 /* NetworkFlowListViewController.swift */,
-				06FA6F77BBCBF8461E634721F029181A /* NetworkFlowResponseDataDetailViewController.swift */,
-				D2559FE9070AFB5C33BCC7D8BDC81414 /* NetworkObserverDashboardViewController.swift */,
-			);
-			name = NetworkObserver;
-			path = NetworkObserver;
-			sourceTree = "<group>";
-		};
-		855D0CEB43406ED4A255CAA734C44F40 /* SanboxBrowser */ = {
-			isa = PBXGroup;
-			children = (
-				9F7179FC3E2DFA145CF61B8B8BD5950B /* DatabaseConnector.swift */,
-				F63AC8BF01086A4E90B1E39E2C2C62B8 /* ExcelView.swift */,
-				AD07BFBC5E6E358F345C51DBA39930E4 /* FileBrowserController.swift */,
-				8769466F78BC94D6D5B7815B7AD4DE92 /* FilePreviewViewController.swift */,
-				0CC26E86D380DA0917B4C512465A251A /* TableContentViewController.swift */,
-				B84D1E171A040277FBC6FECF5413879E /* TableListViewController.swift */,
-				4F272949547329F326A7029390F82BFA /* TextPreviewViewController.swift */,
-			);
-			name = SanboxBrowser;
-			path = SanboxBrowser;
-			sourceTree = "<group>";
-		};
-		894E3F17405A2550EFA76F5426C379DB /* UserDefaults */ = {
-			isa = PBXGroup;
-			children = (
-				015EED759D15E02A43292DBD76EA2FD3 /* UserDefaultsKeyValueDetailViewController.swift */,
-				3FBF29215B0B47100A5EB27F506C5A21 /* UserDefaultsKeyValuesListViewController.swift */,
-			);
-			name = UserDefaults;
-			path = UserDefaults;
-			sourceTree = "<group>";
-		};
-		999DC4524239962C96109BABB2B77A7F /* File */ = {
-			isa = PBXGroup;
-			children = (
-				4DB8920AEDAA72324621A7F7489B3C5F /* ANRFileManager.swift */,
-				963FB64E06A57C31D68C4896F7D4DF4E /* ASLFileManager.swift */,
-				259BCF2EEE42EB2FE8714F3752795BC5 /* CrashFileManager.swift */,
-				B9FA555728D2A98BC6168D539B1BAD6D /* SoldierFileManager.swift */,
-			);
-			name = File;
 			path = File;
 			sourceTree = "<group>";
 		};
-		99B3657AE090DB1B30F74CA8ECE393F8 /* CPU */ = {
+		8DDB173C07929F498C573EFD2A6A15A5 /* Monitor */ = {
 			isa = PBXGroup;
 			children = (
-				75466F33D07619B65D8458DC69F729E0 /* CPUMonitor.swift */,
-				2DB1588533B00A4E392451993D50FE6D /* CPUSoldier.swift */,
+				CF0A7C7BA2EC57759A92EDA56A4ECED5 /* NSObject+Alive.swift */,
+				36C15AC1983F3C6D169D6BC0615D6F54 /* NSObject+Eye.swift */,
+				327004919F088E2965223D586B1F8BC1 /* Preparer.swift */,
 			);
-			name = CPU;
+			path = Monitor;
+			sourceTree = "<group>";
+		};
+		8E2FC743ABE7992A8A4FD2150149445A /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+				3713516CF3E17FAFC077997B6673A6FD /* MemoryDashboardViewController.swift */,
+			);
+			path = Memory;
+			sourceTree = "<group>";
+		};
+		9822BF2DBCC8FB6C1A187B70A7245A77 /* CPU */ = {
+			isa = PBXGroup;
+			children = (
+				B1A3B0E9D0EB0D4768BD247E64F72EEF /* CPUMonitor.swift */,
+				15A9F7D9F5DE32549491750061B0BBAC /* CPUSoldier.swift */,
+			);
 			path = CPU;
+			sourceTree = "<group>";
+		};
+		997A52C62EF6279CB84D3762127C9DEE /* FPS */ = {
+			isa = PBXGroup;
+			children = (
+				E4E09466FC62A1DDD7FAE6E7E7087E18 /* FPSDashboardViewController.swift */,
+			);
+			path = FPS;
+			sourceTree = "<group>";
+		};
+		9AD788DE0FCED48AF3E25EF2365E181A /* WebsiteEntry */ = {
+			isa = PBXGroup;
+			children = (
+				206065453F7587C0FD534E184472CB03 /* WebsiteEntrySoldier.swift */,
+			);
+			path = WebsiteEntry;
 			sourceTree = "<group>";
 		};
 		9BDBD95ED116334D1B2835202D8D3060 /* Pods-Example */ = {
@@ -568,82 +540,104 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		A57F50DDA191A98D92AE81CED62FE4E5 /* Memory */ = {
+		9CE7661532BEAEAD5999231C3DD539E3 /* NetworkObserver */ = {
 			isa = PBXGroup;
 			children = (
-				1C9A9D704B9447066DBAD0F722C9327B /* MemoryMonitor.swift */,
-				5BFD248E55EC0446AFBFFCC1FF910B69 /* MemorySoldier.swift */,
+				54E2F6EFB5F317B554B069417332258B /* NetworkObserverSoldier.swift */,
+				316CE300D237D1A6B31FC758D22F06B7 /* VVToolsURLProtocol.swift */,
 			);
-			name = Memory;
-			path = Memory;
-			sourceTree = "<group>";
-		};
-		B23D49813AAAE3C6F745AA0A9A979980 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				EFE35A96F4F00BF64EF38C1EED3410E6 /* BaseTableViewController.swift */,
-				9902CF0B0BB583E104BA3D760D6F6327 /* BaseViewController.swift */,
-				7AE526DAE58379F4374E025340CA4232 /* CaptainFloatingViewController.swift */,
-				81E69768CCF12503FA161F54C21C3148 /* CaptainFloatingWindow.swift */,
-				C9AC903C1B62ED2651DBF3B2652CB357 /* SoldierListViewController.swift */,
-			);
-			name = Main;
-			path = Main;
-			sourceTree = "<group>";
-		};
-		BD51072FD64FEBBD12A5B6465EDEFE86 /* NetworkObserver */ = {
-			isa = PBXGroup;
-			children = (
-				C0D43DB115243B3EE47031E6604C2158 /* NetworkObserverSoldier.swift */,
-				BA404EAA06E597FA693A1D7EB9974627 /* VVToolsURLProtocol.swift */,
-			);
-			name = NetworkObserver;
 			path = NetworkObserver;
 			sourceTree = "<group>";
 		};
-		C6258303CB041BC886057FD8CB5068F5 /* Support Files */ = {
+		A2189E77B84CC2E7C347597756E78C6F /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				DBFD3B7C1D9BB525DF3B077E7CC5AC4B /* VVTools.modulemap */,
-				548C8895E3A95200ECFD943FEE0B0104 /* VVTools-dummy.m */,
-				89C679F8E0B764806B6BEFF1A5F25960 /* VVTools-Info.plist */,
-				5602D310A9A864823EE6AC11EA7E2929 /* VVTools-prefix.pch */,
-				C74D1152B5FF292E3B41108ED48812B3 /* VVTools-umbrella.h */,
-				9349ADB37DEFA0FFC1B67077C1F09033 /* VVTools.debug.xcconfig */,
-				BBADD58B52FF6A5D4D394FB2C3166671 /* VVTools.release.xcconfig */,
+				E4CB0EF7296E1AE601A164A46306A801 /* ANR */,
+				6198893DFC28E28C5115153E9A82F2B1 /* AppInfo */,
+				F56DE35B0CCB1C63DAB7F47E3AA0DD92 /* ASL */,
+				B37D7B0E5D4936DD30F452652E680133 /* Common */,
+				44A197F5882E296DECBBB315AC79118F /* CPU */,
+				D413C225A5233CD224B0C1936CD55EA1 /* Crash */,
+				997A52C62EF6279CB84D3762127C9DEE /* FPS */,
+				DFCF9F181857B23CB31840D24FFB3999 /* Leak */,
+				497646FBB54A499491A50DE587A5AE2D /* Main */,
+				8E2FC743ABE7992A8A4FD2150149445A /* Memory */,
+				62624CA9135CAD7D2966A1D79DA5D250 /* Model */,
+				BE8B910873E9AC6B627A4903D95E4E9B /* NetworkObserver */,
+				EE83FBF03E41DD894E8568E2E848E7D0 /* SanboxBrowser */,
+				CDF5464985AE64003A9C764924BA727A /* UserDefaults */,
+				FE4FDED76F570DC83C800647B1AE6EF9 /* WebsiteEntry */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/VVTools";
+			name = UI;
+			path = VVTools/UI;
 			sourceTree = "<group>";
 		};
-		C77E1DC29FDAC03A24F072DF4E3965A8 /* Resources */ = {
+		A8990D37BDA532E84A29708510F7D57E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				06C465D419999458B2451C888AE51F91 /* Resource.bundle */,
+				F8367443D5362FF0549A29C33B860AB6 /* VVTools */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A948F8D5AA794D8343F2693235620771 /* Leak */ = {
+			isa = PBXGroup;
+			children = (
+				4A188ABF730D5188425FD52C5E81F28E /* LeakSoldier.swift */,
+				09EDEE9DD3F6082879C8B0E8F329B192 /* NSNotification+Leak.swift */,
+				5A807349260599E9030EB5D9D33B42A2 /* Variable.swift */,
+				CFEFB81177D65709659BC7EBE1E0FDA5 /* Agent */,
+				8DDB173C07929F498C573EFD2A6A15A5 /* Monitor */,
+			);
+			path = Leak;
+			sourceTree = "<group>";
+		};
+		A9C7F03B1488C384767580922E97D7D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E568CB7874F63AB4720E71115F27C0C /* Resource.bundle */,
 			);
 			name = Resources;
 			path = VVTools/Resources;
 			sourceTree = "<group>";
 		};
-		CC6E6ADB0BDCCC0C03B31F8694ADAE2B /* ANR */ = {
+		B37D7B0E5D4936DD30F452652E680133 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				F631B9B6EAE5CE2D40B3B967BAAE7929 /* ANRMonitor.swift */,
-				70A3A142F52F9BFEA466B1B87C2D5091 /* ANRPingThread.swift */,
-				94443D33B168EF92B79EE8CBF2AB03F6 /* ANRSoldier.swift */,
-				450A28986AE078A41705140863A60E35 /* BSBacktraceLogger.h */,
-				0EAB6FDBEF4B018B60843FC1FE0F5939 /* BSBacktraceLogger.m */,
+				00ECA7F34C5452AA4D0668CFE060B482 /* DashboardCell.swift */,
+				91880689FD99E10150328A393E1EDDB3 /* FileListViewController.swift */,
+				6B24D01CD6C2A31C740354930BEAED84 /* MonitorConsoleLabel.swift */,
+				0336BFB86ECF5C96850FB2F8D6799234 /* MonitorListWindow.swift */,
 			);
-			name = ANR;
-			path = ANR;
+			path = Common;
 			sourceTree = "<group>";
 		};
-		CDCEF2D536DCBC77B7F13A90B12F3244 /* UserDefaults */ = {
+		BE8B910873E9AC6B627A4903D95E4E9B /* NetworkObserver */ = {
 			isa = PBXGroup;
 			children = (
-				2E829AE9474581BA625C92C34AA1F8A5 /* UserDefaultsSoldier.swift */,
+				57240827A84E2D2EF9B373AB67CD192B /* NetworkFlowDetailViewController.swift */,
+				58B8F05499D5FEA67969D163A00374FC /* NetworkFlowListViewController.swift */,
+				4D67B584E319ECA67C56D00125C620B4 /* NetworkFlowResponseDataDetailViewController.swift */,
+				F85B7E0C3F6725FBF42C5403C711637E /* NetworkObserverDashboardViewController.swift */,
 			);
-			name = UserDefaults;
+			path = NetworkObserver;
+			sourceTree = "<group>";
+		};
+		CBE905A616DBA73C5BD3873A804620BF /* ASL */ = {
+			isa = PBXGroup;
+			children = (
+				BB7AB096FD788744C32DE2B5E7DF5FC5 /* ASL.swift */,
+				76E2D1DC87AC4D160BCCD32DFE9D20F8 /* ASLSoldier.swift */,
+			);
+			path = ASL;
+			sourceTree = "<group>";
+		};
+		CDF5464985AE64003A9C764924BA727A /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				E50651040AB5FEF12ADB2BDB94C48722 /* UserDefaultsKeyValueDetailViewController.swift */,
+				74B31D31C33A790A191D1FA9AC207208 /* UserDefaultsKeyValuesListViewController.swift */,
+			);
 			path = UserDefaults;
 			sourceTree = "<group>";
 		};
@@ -659,80 +653,137 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7EA289AD72601C3792304A232CD5BB7A /* Development Pods */,
+				A8990D37BDA532E84A29708510F7D57E /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				180511039028968585AACAB08955EF23 /* Products */,
 				CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DC778AA7B508BA2FE2563DCE17EB8F04 /* WebsiteEntry */ = {
+		CFEFB81177D65709659BC7EBE1E0FDA5 /* Agent */ = {
 			isa = PBXGroup;
 			children = (
-				B9DF5E56D43D26589F20F7410853D320 /* WebsiteEntrySoldier.swift */,
+				B85A17469B7455A52D3E4BB65253FAA4 /* ObjectAgent.swift */,
 			);
-			name = WebsiteEntry;
-			path = WebsiteEntry;
+			path = Agent;
 			sourceTree = "<group>";
 		};
-		EA6C56A81BAE608F293CB1992DD685B3 /* VVTools */ = {
+		D225BC98B34BDD1F5A7CF3C8B193903A /* SanboxBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				A1F7822C96E0D3F09A5B205B790A0F67 /* Captain.swift */,
-				DF3FF54EA118FB5FB90BEB91D045975A /* CaptainDefines.swift */,
-				62DDE776D5833B2061AAE372E0252E38 /* Resource.bundle */,
-				DA17CB5288A65A5EC82881B3F04FD050 /* UserDefaults+Access.swift */,
-				EF62AE66B6A871404501D122AED52224 /* Manager */,
-				63D002C2EC93E47F814F0B88E058B970 /* Pod */,
-				C77E1DC29FDAC03A24F072DF4E3965A8 /* Resources */,
-				3D28F9E70EBD390E8985BACFEBE6B7C5 /* Soldiers */,
-				C6258303CB041BC886057FD8CB5068F5 /* Support Files */,
-				7E25CACE9860C1F547E0BE62848F4806 /* UI */,
+				89A3625AA1A150B46C08C013BD9A8796 /* SanboxBrowserSoldier.swift */,
+			);
+			path = SanboxBrowser;
+			sourceTree = "<group>";
+		};
+		D413C225A5233CD224B0C1936CD55EA1 /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+				F5C9282DD48A053C61EE8557DC7EBD4A /* CrashDashboardViewController.swift */,
+				4A71152D2A673A75E1BAFA8FF9EF3CED /* CrashListViewController.swift */,
+			);
+			path = Crash;
+			sourceTree = "<group>";
+		};
+		DA0F95146EEACAA61ACC7674C65E6179 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28F91E9C3C1695D76D43253AC3C9F712 /* VVTools.modulemap */,
+				D5E722E0CDFAC8CD9624DA0588EB49A7 /* VVTools-dummy.m */,
+				D47468E1228968833B95AEF648CF5C9A /* VVTools-Info.plist */,
+				484277B694892B25C4085DA453A871B8 /* VVTools-prefix.pch */,
+				C547BA9C20E7FE20B2D4937754714A3C /* VVTools-umbrella.h */,
+				13259E9C99E0CADFAD19F510752F4F14 /* VVTools.debug.xcconfig */,
+				988CC14BEA08DDB085B93A04933ED285 /* VVTools.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VVTools";
+			sourceTree = "<group>";
+		};
+		DFCF9F181857B23CB31840D24FFB3999 /* Leak */ = {
+			isa = PBXGroup;
+			children = (
+				660E02EA808FAE246737CB2BAD032E4A /* LeakDashboardViewController.swift */,
+				4AF37DD2A67236269643DD26DE47375C /* LeakListViewController.swift */,
+			);
+			path = Leak;
+			sourceTree = "<group>";
+		};
+		E4CB0EF7296E1AE601A164A46306A801 /* ANR */ = {
+			isa = PBXGroup;
+			children = (
+				82F92D2E499389008FD2C056D2CAD7F1 /* ANRDashboardViewController.swift */,
+				8978029539ACDDE4DAD3D048129C4A9F /* ANRListViewController.swift */,
+			);
+			path = ANR;
+			sourceTree = "<group>";
+		};
+		EE83FBF03E41DD894E8568E2E848E7D0 /* SanboxBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				329A6EBED6F7EB6AA6A2917298A027D2 /* DatabaseConnector.swift */,
+				DCCE6505F4779C8F277277C66E97D408 /* ExcelView.swift */,
+				EDBEFF1AC82900CA295533D089D44580 /* FileBrowserController.swift */,
+				CD84EFCB397F38BB821F14AEDFD68C6A /* FilePreviewViewController.swift */,
+				2ECC04EF55F448A23E6CEC5727FAA09B /* TableContentViewController.swift */,
+				5330B50F9A5CD24817B09D75BE387107 /* TableListViewController.swift */,
+				5A39474EAA8904D3AD62091EE18667AF /* TextPreviewViewController.swift */,
+			);
+			path = SanboxBrowser;
+			sourceTree = "<group>";
+		};
+		F07B3370A565A06D5E098B76378B9D87 /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+				7880A67F81A6A4C4FD5164ED41BB715C /* MemoryMonitor.swift */,
+				827482552A087068F16EED5337F78F02 /* MemorySoldier.swift */,
+			);
+			path = Memory;
+			sourceTree = "<group>";
+		};
+		F56DE35B0CCB1C63DAB7F47E3AA0DD92 /* ASL */ = {
+			isa = PBXGroup;
+			children = (
+				342D84608B9FAE4FB7FAD2615B28F427 /* ASLDashboardViewController.swift */,
+				43B7A30022F76EA81EC234070AA4EB99 /* ASLListViewController.swift */,
+			);
+			path = ASL;
+			sourceTree = "<group>";
+		};
+		F8367443D5362FF0549A29C33B860AB6 /* VVTools */ = {
+			isa = PBXGroup;
+			children = (
+				B4E1D948899139F971737B3A141235B7 /* Resource.bundle */,
+				4336AD4D32B23173AAA73992E65EB3D2 /* Base */,
+				18D7B55BE027E0F5C270438CDAFD1EDE /* Manager */,
+				10A4468E62240BEA635452C227D71D3E /* Pod */,
+				A9C7F03B1488C384767580922E97D7D0 /* Resources */,
+				710BDB1F516FC5C5D671A519B3AF0ACE /* Soldiers */,
+				DA0F95146EEACAA61ACC7674C65E6179 /* Support Files */,
+				A2189E77B84CC2E7C347597756E78C6F /* UI */,
 			);
 			name = VVTools;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		EF62AE66B6A871404501D122AED52224 /* Manager */ = {
+		FE4FDED76F570DC83C800647B1AE6EF9 /* WebsiteEntry */ = {
 			isa = PBXGroup;
 			children = (
-				999DC4524239962C96109BABB2B77A7F /* File */,
-				772E879959FDB5C4B671377CD6761476 /* Image */,
-				1BCEBD5E97B2E239E66AD69FAD5044C5 /* NetworkManager */,
+				11765FF431308976E0E33E597759CDA3 /* WebDetailViewController.swift */,
+				BF0DDAABCA00B587A2FD235DBB073410 /* WebsiteEntryViewController.swift */,
 			);
-			name = Manager;
-			path = VVTools/Manager;
-			sourceTree = "<group>";
-		};
-		F0BD751F71E0DD1CDA3F8731CA2E4263 /* Crash */ = {
-			isa = PBXGroup;
-			children = (
-				BC08239CBD6F8EE26A69D31066B0FC25 /* CrashDashboardViewController.swift */,
-				D0B408896088673C812A3D1601BBF8BD /* CrashListViewController.swift */,
-			);
-			name = Crash;
-			path = Crash;
-			sourceTree = "<group>";
-		};
-		F70F8427CB5BCC733E4CAC38CD36CCF2 /* ASL */ = {
-			isa = PBXGroup;
-			children = (
-				44B837F09662E1EE50AFAD6633D8C7BC /* ASL.swift */,
-				75B51A3A7A9E3738674635DBF2D13A37 /* ASLSoldier.swift */,
-			);
-			name = ASL;
-			path = ASL;
+			path = WebsiteEntry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		57717AF06E83FD24C471166E11F58D05 /* Headers */ = {
+		0F4EA7161917D36D54B42DE2FDA58304 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DE50A5DFA6B54B8ACEA924C3DA40E03 /* BSBacktraceLogger.h in Headers */,
-				1CCCDEDFC25F0D9594304A831FAC3C3F /* VVTools-umbrella.h in Headers */,
+				F03600EF637FB34CE2A3EA761AA825FF /* BSBacktraceLogger.h in Headers */,
+				12EAC410A7D39DBFB831471C19B6028E /* VVTools-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -759,21 +810,21 @@
 			buildRules = (
 			);
 			dependencies = (
-				6246113E5BF124CD45B1A801466F1C48 /* PBXTargetDependency */,
+				D4A73CE91812FB4421B8BF8F57E1D11A /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = Pods_Example;
-			productReference = 1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */;
+			productReference = 1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CBBFDBD23C2F9098484F357B28F9D023 /* VVTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A338783797FF33139017A8C106AB7973 /* Build configuration list for PBXNativeTarget "VVTools" */;
+			buildConfigurationList = 27D113CF44C20E6BAE8FB3050EA40765 /* Build configuration list for PBXNativeTarget "VVTools" */;
 			buildPhases = (
-				57717AF06E83FD24C471166E11F58D05 /* Headers */,
-				56BDE4ECCA71DF3D79D7A25DA747044C /* Sources */,
-				2AD13D7ACB046CFE45E8CE9A48A7C233 /* Frameworks */,
-				4054ABD2174AF9D2AC083DB08E68D7E0 /* Resources */,
+				0F4EA7161917D36D54B42DE2FDA58304 /* Headers */,
+				E7F0C3E47E02CAC1FB9739060DEF1C3C /* Sources */,
+				52BF3B628C63A35922D21C1468DEA40C /* Frameworks */,
+				69E4B072B7BA091F811AC1F398203914 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -781,7 +832,7 @@
 			);
 			name = VVTools;
 			productName = VVTools;
-			productReference = 2F3B8B2BBB2750DEF3A3FF8686FFDDA6 /* VVTools */;
+			productReference = 2F3B8B2BBB2750DEF3A3FF8686FFDDA6 /* VVTools.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -790,8 +841,9 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1540;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 12.0";
@@ -813,11 +865,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4054ABD2174AF9D2AC083DB08E68D7E0 /* Resources */ = {
+		69E4B072B7BA091F811AC1F398203914 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65DDE626963A389E490F3F2A1B4F6922 /* Resource.bundle in Resources */,
+				972A1FC386CAA11A257B6F48875FFFF9 /* Resource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -839,104 +891,117 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		56BDE4ECCA71DF3D79D7A25DA747044C /* Sources */ = {
+		E7F0C3E47E02CAC1FB9739060DEF1C3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				063366B05694C23EF44C6B76434DCF56 /* ANRDashboardViewController.swift in Sources */,
-				D26098A048F6B20E8390F42B07237574 /* ANRFileManager.swift in Sources */,
-				2551239B94192C0D720343CEB3DBC212 /* ANRListViewController.swift in Sources */,
-				D6C0BB31DE98E7E8D51C9E34F22852BA /* ANRMonitor.swift in Sources */,
-				093225338D9DC50A72DF36D8551B28BF /* ANRPingThread.swift in Sources */,
-				39CA0170B72CADC1DBDB7F0B116967CB /* ANRSoldier.swift in Sources */,
-				A219F5F8BEE2AAC109B55D1EA144ADF8 /* AppInfoManager.swift in Sources */,
-				EA9282DFC6BDFEDF4D95EFD588424758 /* AppInfoSoldier.swift in Sources */,
-				A3E6A906A1998BBB025DEA511145A81F /* AppInfoViewController.swift in Sources */,
-				00068B38EEF1A117F055440D26B1C52B /* ASL.swift in Sources */,
-				BF4DCF3506A6ED211993F655DC41E1C9 /* ASLDashboardViewController.swift in Sources */,
-				080981463CF471D7529CDAF176DFBE29 /* ASLFileManager.swift in Sources */,
-				8187BDC0F75BD94A7B7DF55E2EDE4A09 /* ASLListViewController.swift in Sources */,
-				88210DD2685B22D63AACA6B88FE30AF8 /* ASLSoldier.swift in Sources */,
-				58D5A8D1D444333AC1FF317B0B8BB23A /* BaseTableViewController.swift in Sources */,
-				99E5FD783FE7F8DB3EE98985D571A72B /* BaseViewController.swift in Sources */,
-				B40842A649675A284E3EBE6FE674F1F7 /* BSBacktraceLogger.m in Sources */,
-				036DAD15F6BD00AECF9FE410B4EB7553 /* Captain.swift in Sources */,
-				435FA7F5EC1304185D7F14A5F6A9D82C /* CaptainDefines.swift in Sources */,
-				7D9EAD1730479F28B9B0EE378108AE8C /* CaptainFloatingViewController.swift in Sources */,
-				CF47B1902F1AB07BEF86845EAA176B3E /* CaptainFloatingWindow.swift in Sources */,
-				C5180C418DCEFC7E00AAA195306E7BB8 /* CPUDashboardViewController.swift in Sources */,
-				C2FA37DBEDD2ED346B1474CF067ED3CC /* CPUMonitor.swift in Sources */,
-				ED0C94E407ECA59F86D0FDA6AE21B21F /* CPUSoldier.swift in Sources */,
-				486B7C19A811E6ABEBAB75F107B572B1 /* CrashDashboardViewController.swift in Sources */,
-				78C678085BA4B9A7B726F58868310EF2 /* CrashFileManager.swift in Sources */,
-				63D2E88AC12E972AF1A046A6C75ACDFE /* CrashListViewController.swift in Sources */,
-				F23C01C78AC9F7F0CDA1FC3487160ABB /* CrashSignalExceptionHandler.swift in Sources */,
-				41819F63742450D3654A518DC6FEF918 /* CrashSoldier.swift in Sources */,
-				636B9384DC27C73BCB2E6851D7D241C1 /* CrashUncaughtExceptionHandler.swift in Sources */,
-				0E7BCA5C1A405C1DAD58D5635406BF81 /* DashboardCell.swift in Sources */,
-				89A356FDCE6EC668573905BB4B078A07 /* DatabaseConnector.swift in Sources */,
-				32570BEE82C636ABBA3BC9321050527C /* ExcelView.swift in Sources */,
-				01E813A495FDAE8EBCFB865B13ECDC08 /* FileBrowserController.swift in Sources */,
-				A0785AFA330B5EDFE1E450EF64E1576E /* FileListViewController.swift in Sources */,
-				5757DE8B1BCF1B36F7CE7B905196E644 /* FilePreviewViewController.swift in Sources */,
-				47AFF9A9CB700026EBB8F53B91B310D2 /* FPSDashboardViewController.swift in Sources */,
-				A5811C08E154FDEBFA92E417134D17D0 /* FPSMonitor.swift in Sources */,
-				605DC65189474637AA0C0826A0B0DF2B /* FPSSoldier.swift in Sources */,
-				F5784E8C253AD4F872D008CD5419DE0F /* ImageManager.swift in Sources */,
-				BE37A6A57349E2816620897738B8FA67 /* MemoryDashboardViewController.swift in Sources */,
-				7C914772E723FD1CB29C1E5EABD275EE /* MemoryMonitor.swift in Sources */,
-				EAC9F8CF4353259D3ECBB76440C20718 /* MemorySoldier.swift in Sources */,
-				E62A9273D707724684353244C52EE502 /* MonitorConsoleLabel.swift in Sources */,
-				B4650E1F5584D2A988BCCF1226FA2E07 /* MonitorListWindow.swift in Sources */,
-				0339549BAC670AC623B14EDDFAB20BDB /* NetworkFlowDetailCellModel.swift in Sources */,
-				ACB2116036AD312DE3CB5DDB4E684141 /* NetworkFlowDetailSectionModel.swift in Sources */,
-				29C9586069175DB9787F50590E817BA6 /* NetworkFlowDetailViewController.swift in Sources */,
-				60E21D0F24C1B36BA353244F94B83DE1 /* NetworkFlowListViewController.swift in Sources */,
-				5ABC74F8B4FB32E6A09B3A899E4608F5 /* NetworkFlowModel.swift in Sources */,
-				3C7BD72B998CC27EF080124F005880EE /* NetworkFlowResponseDataDetailViewController.swift in Sources */,
-				70E74D0CF30BF3E6B55F267D3603D271 /* NetworkManager.swift in Sources */,
-				DD9772F81DCDFDF71CBE2E2A426126EC /* NetworkObserverDashboardViewController.swift in Sources */,
-				C573B76A3AA0712FE68B7DC09763803E /* NetworkObserverSoldier.swift in Sources */,
-				0F76D23929BFF942BD8683AE3B1C434D /* SanboxBrowserSoldier.swift in Sources */,
-				3F6A7C7892B839DA99C4A22C918A5950 /* SanboxModel.swift in Sources */,
-				29BF3482577E285C9EDBB45411D39C0A /* SoldierFileManager.swift in Sources */,
-				04C4F2889AC8FC61E26CCFEC1E543E9C /* SoldierListSectionModel.swift in Sources */,
-				FE4BEC4E99EED4D7186A1BF781FBB9E7 /* SoldierListViewController.swift in Sources */,
-				2AD41B85AB7B2E1D2B8F5C60F22555B8 /* TableContentViewController.swift in Sources */,
-				16516DA7AC82D094675EC0FFF513BCF7 /* TableListViewController.swift in Sources */,
-				5F0FF3A2B7EE27FD6F9AA1B79FC61879 /* TextPreviewViewController.swift in Sources */,
-				B0909051E31BBB0A58C49D6F1BD446B4 /* UserDefaults+Access.swift in Sources */,
-				58FE8B92D888257A039212F629AF7D2E /* UserDefaultsKeyValueDetailViewController.swift in Sources */,
-				3E0F3CE0C545665C4B464A52EC5172C8 /* UserDefaultsKeyValueModel.swift in Sources */,
-				A09191E0309259AD51FF845E2F69B9AF /* UserDefaultsKeyValuesListViewController.swift in Sources */,
-				5BD4C1AFED6E74BBCAA5418B71082A39 /* UserDefaultsSoldier.swift in Sources */,
-				1EE1FD3073EC0F0E89C75D38BC70D824 /* VVTools-dummy.m in Sources */,
-				E7A7FA4DB8067272F71A72F2ABFD9886 /* VVTools_icon_anr.png in Sources */,
-				56D47EE7F46AC218A8B793227F8C1B66 /* VVTools_icon_app_info.png in Sources */,
-				948563BD15167BDF1A7BA028241431CF /* VVTools_icon_app_user_defaults.png in Sources */,
-				8E1099C33E7CE5084089A92687912A03 /* VVTools_icon_cpu.png in Sources */,
-				95CA2E6C8F2D1894A9CC2C57854705EE /* VVTools_icon_crash.png in Sources */,
-				E6A813F96CD8554852EE5767592C4205 /* VVTools_icon_fps.png in Sources */,
-				B32842EE47B56682E84600830756E00D /* VVTools_icon_h5.png in Sources */,
-				08D5CC8A3B7ECE7984B7EAAF53395894 /* VVTools_icon_memory.png in Sources */,
-				9D7306D2060AD0FB296016CCC49F9E13 /* VVTools_icon_network.png in Sources */,
-				068BD05A8453BEC08494196EE012F41F /* VVTools_icon_sanbox.png in Sources */,
-				807865BACFCF7161A70898A2A31F051F /* VVTools_icon_shield.png in Sources */,
-				C2E413D9C97F30EF26126BA3A3ACD4FB /* VVToolsURLProtocol.swift in Sources */,
-				88405CC2424182A8CAA9A04E59F920B8 /* WebDetailViewController.swift in Sources */,
-				135ABEA6874BFF84A554007548DB00CE /* WebsiteEntrySoldier.swift in Sources */,
-				A07B6F037E86634572349771F644508A /* WebsiteEntryViewController.swift in Sources */,
+				7066FC5D2E9C372A38355298A09AD88F /* ANRDashboardViewController.swift in Sources */,
+				3D75EF64AFF7AABC467E9C592591D7B2 /* ANRFileManager.swift in Sources */,
+				98B0938D33AD9ED377C7171FDC2CE9EC /* ANRListViewController.swift in Sources */,
+				99189D6895F2A6B9BA427FF0BD828C5B /* ANRMonitor.swift in Sources */,
+				9F0487FF82182775883E1CAE369FB679 /* ANRPingThread.swift in Sources */,
+				7FF228E92C21C90DE0AEAB9F4A28A522 /* ANRSoldier.swift in Sources */,
+				65801CD2DBD492FCAF78860006D2D99F /* AppInfoManager.swift in Sources */,
+				11AAE069AC24B45001630307E326B1BD /* AppInfoSoldier.swift in Sources */,
+				36221F7CC0E87014DE81350F357C164F /* AppInfoViewController.swift in Sources */,
+				6DCA9C3B420E1A38E09450B2EE133074 /* AppSwizzle.swift in Sources */,
+				AEF449A326443CAEA11B59AB876B056B /* ASL.swift in Sources */,
+				E975C115C972B30946D52369604F3D84 /* ASLDashboardViewController.swift in Sources */,
+				8EE749EE3D70B54515BD246B440477C9 /* ASLFileManager.swift in Sources */,
+				A701B6FACA17D78C48CEABBD41282431 /* ASLListViewController.swift in Sources */,
+				B309A3E937EBD53ED1CF676B4FE2A105 /* ASLSoldier.swift in Sources */,
+				45130608C78B388389459465A0CD75C6 /* BaseTableViewController.swift in Sources */,
+				B29DCA4A8D6E883314F43B2FFBED9575 /* BaseViewController.swift in Sources */,
+				8D31F1DED692CAC62C2A65246DD57E2E /* BSBacktraceLogger.m in Sources */,
+				2B53BA84486C802850C183229D487C4B /* Captain.swift in Sources */,
+				B60E0762AE608D7966E2316DDBC0E127 /* CaptainDefines.swift in Sources */,
+				2910FBD8712CABDFF732B47B25CDC7B0 /* CaptainFloatingViewController.swift in Sources */,
+				B4A10B175E10130097A1105C52B1EE02 /* CaptainFloatingWindow.swift in Sources */,
+				E96F91A3C8A109EFE7DE66C76012D70F /* CPUDashboardViewController.swift in Sources */,
+				82F9A1CE17921E2206D2E784A3E17A8E /* CPUMonitor.swift in Sources */,
+				AD4BAE29A9FF9042DD90ABD9EA78D886 /* CPUSoldier.swift in Sources */,
+				BAE09604606DEB073C204E3A72C27439 /* CrashDashboardViewController.swift in Sources */,
+				6D43783707AAFE481D3FF4740A8ABA85 /* CrashFileManager.swift in Sources */,
+				2425715BB3BDA391370BE2207FBA7A2B /* CrashListViewController.swift in Sources */,
+				032ADE1C8EFBA535EE1D333A30F9A452 /* CrashSignalExceptionHandler.swift in Sources */,
+				B673CCFE3C76D29F6F50113A5916D57C /* CrashSoldier.swift in Sources */,
+				A8D4113357DF92FFF59DF068E2AF34CF /* CrashUncaughtExceptionHandler.swift in Sources */,
+				96D973944579B47E2740BCE67E7023DA /* DashboardCell.swift in Sources */,
+				8F60D3F9C7C00399E08284C00E2F5FAF /* DatabaseConnector.swift in Sources */,
+				73BE5D06AB5D849AA8854D5703D6A88C /* DispatchQueue+.swift in Sources */,
+				01A94C62A2A640AFCE525EDB7CEF8674 /* ExcelView.swift in Sources */,
+				4C244557C447B4EE9042148151629D07 /* FileBrowserController.swift in Sources */,
+				312C2BAB01FC451AC792CAD5C830B605 /* FileListViewController.swift in Sources */,
+				3FB13D511921BAC02A444D70193936CB /* FilePreviewViewController.swift in Sources */,
+				EFDA0384F4422C9978E548A6484E2B69 /* FPSDashboardViewController.swift in Sources */,
+				3257B445AF48895A912430A67425B66E /* FPSMonitor.swift in Sources */,
+				40C2945ACE2691F0A6C1D6D9ADFCD36F /* FPSSoldier.swift in Sources */,
+				0C70B29C4A90D3813D95D13A294B4380 /* ImageManager.swift in Sources */,
+				1CE3227988BD71EBB691B1D855244AE9 /* LeakDashboardViewController.swift in Sources */,
+				28C0A25FFAEE96EC752B3EE13057DA20 /* LeakFileManager.swift in Sources */,
+				0A26A637B55BBB52B0531D3F34BB227D /* LeakListViewController.swift in Sources */,
+				B96CFA275A0D166AFC9AAA6450849BE0 /* LeakSoldier.swift in Sources */,
+				5EAA3C447D1AFAF979281C8AB418FE5D /* MemoryDashboardViewController.swift in Sources */,
+				0A56F3160EAAA5D63D9FB3155A373018 /* MemoryMonitor.swift in Sources */,
+				48EB0B5D88EAEB693E7796B3CBCA91B1 /* MemorySoldier.swift in Sources */,
+				66630EC40B182B6FC4B75E70B61FDCAD /* MonitorConsoleLabel.swift in Sources */,
+				26BC031D1255D38DDBE9F94F86053F8D /* MonitorListWindow.swift in Sources */,
+				3273215AACC7DDDA20F951C015F471AC /* NetworkFlowDetailCellModel.swift in Sources */,
+				835CA8D212CDC0C4F65CCB334D592935 /* NetworkFlowDetailSectionModel.swift in Sources */,
+				E8BA35D13874238C17D2D43E9BEB9793 /* NetworkFlowDetailViewController.swift in Sources */,
+				C213445BE9976E696F7BC40F00F86760 /* NetworkFlowListViewController.swift in Sources */,
+				7C20FAEE3817EC68FD1A9919831EA118 /* NetworkFlowModel.swift in Sources */,
+				2CD83FEA00BE25357C15C620A53258F9 /* NetworkFlowResponseDataDetailViewController.swift in Sources */,
+				F9D130D3420A49AE306D1ABEBF009248 /* NetworkManager.swift in Sources */,
+				F1711CC738DAFBFB0E0423E93BFE8501 /* NetworkObserverDashboardViewController.swift in Sources */,
+				8664DE13F1178FAF617DBDAA2F59C86B /* NetworkObserverSoldier.swift in Sources */,
+				D879E075B6AFC831C69803B25A798AE5 /* NSNotification+Leak.swift in Sources */,
+				99DAA0AC843B50C5193E7F3C95D414A8 /* NSObject+Alive.swift in Sources */,
+				38AB8511617D82315F62E30A61961D28 /* NSObject+Eye.swift in Sources */,
+				3A001F33CAE09FBDE2513EBB05567686 /* ObjectAgent.swift in Sources */,
+				5D1E683DFD5FB7201B82C66162A55ADE /* Preparer.swift in Sources */,
+				7974F44D55CD7C18400C64967EB126D7 /* SanboxBrowserSoldier.swift in Sources */,
+				5B0667A636BD00D18FC8753A70A5DC2B /* SanboxModel.swift in Sources */,
+				76CEB125764B1717F5E07115008C964D /* SoldierFileManager.swift in Sources */,
+				E7C89B0D263DDCF2C741F31B2E0615D6 /* SoldierListSectionModel.swift in Sources */,
+				A27931C5FDAC841236805DE37482C8CA /* SoldierListViewController.swift in Sources */,
+				0888349947F72B38856F8CF4192F2C20 /* String+Leak.swift in Sources */,
+				35649CE11522E1326F071A7E8AC19451 /* TableContentViewController.swift in Sources */,
+				564E6223AA99A5CFAEB4676ED527AC04 /* TableListViewController.swift in Sources */,
+				01698FC383BD579134AADD35127D2FD1 /* TextPreviewViewController.swift in Sources */,
+				D751BD9AC5198DF5AF5EE0AA618EEDBE /* UserDefaults+Access.swift in Sources */,
+				40C15D6240B35728F50DF6B00448DB57 /* UserDefaultsKeyValueDetailViewController.swift in Sources */,
+				3A073556568E0AD27473E0105941DB75 /* UserDefaultsKeyValueModel.swift in Sources */,
+				46B868E0DA92E3C9B692D02131505305 /* UserDefaultsKeyValuesListViewController.swift in Sources */,
+				4E70C03F06A4230C16A510DD9067DDB4 /* UserDefaultsSoldier.swift in Sources */,
+				EE61E98EFF3EC488B7AD36292EBF441B /* Variable.swift in Sources */,
+				ACFCD762020E556E28A9F8034EC7D0B3 /* VVTools-dummy.m in Sources */,
+				9CDBC254104D6FC91BB676C9F820F115 /* VVTools_icon_anr.png in Sources */,
+				3CF20024A4DC8511C3009E5FB02ED939 /* VVTools_icon_app_info.png in Sources */,
+				BADE699BE2FB226800AE45FD93EE5BD2 /* VVTools_icon_app_user_defaults.png in Sources */,
+				E2541F254C5DF1313DEEEDA34453B399 /* VVTools_icon_cpu.png in Sources */,
+				6AD3A250EE8E71456DBBBBC193269FBB /* VVTools_icon_crash.png in Sources */,
+				D037F8FF89186862D31A7ECC59D41059 /* VVTools_icon_fps.png in Sources */,
+				E081FB882BEF9636D43AF230234DAE45 /* VVTools_icon_h5.png in Sources */,
+				0E5B1FA6B926864EF292354BD763B966 /* VVTools_icon_memory.png in Sources */,
+				891B79B49527D71771610BD02DBC5782 /* VVTools_icon_network.png in Sources */,
+				B5DCD9D7C19880BE55F98751B4E26C5C /* VVTools_icon_sanbox.png in Sources */,
+				C5D677C89A6F47BF2FD50E4577E49FC0 /* VVTools_icon_shield.png in Sources */,
+				8D9A8D91FD811E520877021CC9179265 /* VVToolsURLProtocol.swift in Sources */,
+				B22133E25BBE8B4B2068E9823803AE7D /* WebDetailViewController.swift in Sources */,
+				56B330905B1DA386F3845352CBE51FD6 /* WebsiteEntrySoldier.swift in Sources */,
+				A850758CDF0E87EA83CB608FCEAC4898 /* WebsiteEntryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6246113E5BF124CD45B1A801466F1C48 /* PBXTargetDependency */ = {
+		D4A73CE91812FB4421B8BF8F57E1D11A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = VVTools;
 			target = CBBFDBD23C2F9098484F357B28F9D023 /* VVTools */;
-			targetProxy = 5742818475788BF41E021D95CAA61B6A /* PBXContainerItemProxy */;
+			targetProxy = FA5F61FDF6D42BE3C375CBF112277A0B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -976,9 +1041,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -999,7 +1066,6 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1042,9 +1108,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1061,7 +1129,6 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
@@ -1069,19 +1136,18 @@
 			};
 			name = Release;
 		};
-		29B2081F3971A172255148ADA6245237 /* Release */ = {
+		51D4933D4D1F1BA9A443688352FD8709 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBADD58B52FF6A5D4D394FB2C3166671 /* VVTools.release.xcconfig */;
+			baseConfigurationReference = 988CC14BEA08DDB085B93A04933ED285 /* VVTools.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/VVTools/VVTools-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/VVTools/VVTools-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1092,6 +1158,7 @@
 					"@loader_path/Frameworks",
 				);
 				MODULEMAP_FILE = "Target Support Files/VVTools/VVTools.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_MODULE_NAME = VVTools;
 				PRODUCT_NAME = VVTools;
 				SDKROOT = iphoneos;
@@ -1105,55 +1172,19 @@
 			};
 			name = Release;
 		};
-		7347BC4786BAAB6A678BA93259E572A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9349ADB37DEFA0FFC1B67077C1F09033 /* VVTools.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VVTools/VVTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VVTools/VVTools-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/VVTools/VVTools.modulemap";
-				PRODUCT_MODULE_NAME = VVTools;
-				PRODUCT_NAME = VVTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		7C7A070A7352AC00CD1DFC805CE49F88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Example/Pods-Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13;
@@ -1164,6 +1195,7 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1184,14 +1216,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Example/Pods-Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13;
@@ -1202,6 +1233,7 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1209,6 +1241,41 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE6E6D46711A44378DDD612CEFC66D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13259E9C99E0CADFAD19F510752F4F14 /* VVTools.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VVTools/VVTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VVTools/VVTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VVTools/VVTools.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = VVTools;
+				PRODUCT_NAME = VVTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1227,20 +1294,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		27D113CF44C20E6BAE8FB3050EA40765 /* Build configuration list for PBXNativeTarget "VVTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6E6D46711A44378DDD612CEFC66D56 /* Debug */,
+				51D4933D4D1F1BA9A443688352FD8709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				10BD71CD69507B58DCE08E4BF5C0E278 /* Debug */,
 				280CBEAB0354DDBC341510E41B3F1D36 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A338783797FF33139017A8C106AB7973 /* Build configuration list for PBXNativeTarget "VVTools" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7347BC4786BAAB6A678BA93259E572A4 /* Debug */,
-				29B2081F3971A172255148ADA6245237 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
